@@ -1,0 +1,2960 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-21 15:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.10.0\n"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "JavaScript style guide, linter, and formatter"
+msgstr "JavaScript スタイルガイド、リンター、フォーマッター"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgctxt "standard/docs/README-en.md+p"
+msgid "This module saves you (and others!) time in three ways:"
+msgstr ""
+"#-#-#-#-#  standard/docs/README-ja.md:37 (type Plain text)  #-#-#-#-#\n"
+"このモジュールは、3つの方法であなたの（そして他の人の！）時間を節約します。："
+"\n"
+"#-#-#-#-#  standard/docs/README-ja.md:152 (type: Plain text)  #-#-#-#-#\n"
+"このモジュールは、3つの方法であなた（と他の人！）の時間をセーブします。："
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid ""
+"**No configuration.** The easiest way to enforce code quality in your "
+"project. No decisions to make. No `.eslintrc` files to manage. It just works."
+msgstr ""
+"**設定不要** プロジェクトのコード品質を高める最も簡単な方法です。決断はいりま"
+"せん。管理するための`.eslintrc`ファイルも不要です。ただこれだけで動作します。"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgctxt "standard/docs/README-en.md+list-item.p"
+msgid ""
+"**Automatically format code.** Just run `standard --fix` and say goodbye to "
+"messy or inconsistent code."
+msgstr ""
+"#-#-#-#-#  standard/docs/README-ja.md:41 (type Bullet: '- ')  #-#-#-#-#\n"
+"**コードを自動的にフォーマット** ただ`standard "
+"--fix`を実行するだけで、汚いコードや一貫性のないコードにサヨナラしましょう。"
+"\n"
+"#-#-#-#-#  standard/docs/README-ja.md:156 (type: Bullet: '- ')  #-#-#-#-#\n"
+"**コードを自動的にフォーマット** ただ`standard "
+"--fix`を実行し、汚いコードや一貫性のないコードにサヨナラしましょう。"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgctxt "standard/docs/README-en.md+list-item.p"
+msgid ""
+"**Catch style issues & programmer errors early.** Save precious code review "
+"time by eliminating back-and-forth between reviewer & contributor."
+msgstr ""
+"#-#-#-#-#  standard/docs/README-ja.md:41 (type Bullet: '- ')  #-#-#-#-#\n"
+"**スタイルの問題やプログラマーのエラーを早期にキャッチ** レビュアーと作業者の"
+"間の往復をなくすことで、貴重なコードレビューの時間を節約します。\n"
+"#-#-#-#-#  standard/docs/README-ja.md:156 (type: Bullet: '- ')  #-#-#-#-#\n"
+"**スタイルの問題やプログラマーのエラーを早期にキャッチ** レビュアーと作業者の"
+"間の往復をなくすことで、貴重なコードレビューの時間をセーブします。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Give it a try by running `npx standard --fix` right now!"
+msgstr "今すぐ`npx standard --fix`を実行して、試してみましょう！"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Table of Contents"
+msgstr "目次"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid "Quick start"
+msgstr "クイックスタート"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Install]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Usage]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[What you might do if you're clever]{1}"
+msgstr "賢いあなたがすべきこと"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid "FAQ"
+msgstr "FAQ"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Why should I use JavaScript Standard Style?]{1}"
+msgstr "なぜJavaScript Standard Styleを使うべきなのですか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Who uses JavaScript Standard Style?]{1}"
+msgstr "誰がJavaScript Standard Styleを使用していますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Are there text editor plugins?]{1}"
+msgstr "テキストエディタのプラグインはありますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Is there a readme badge?]{1}"
+msgstr "readme用のバッジはありますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[I disagree with rule X, can you change it?]{1}"
+msgstr "私はあるルールに反対なのですが、変更してもらえますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[But this isn't a real web standard!]{1}"
+msgstr "でもこれは本当のウェブ標準ではありません！"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Is there an automatic formatter?]{1}"
+msgstr "自動フォーマッターはありますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[How do I ignore files?]{1}"
+msgstr "ファイルを無視するには？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[How do I disable a rule?]{1}"
+msgstr "ルールを無効にするには？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid ""
+"[I use a library that pollutes the global namespace. How do I prevent "
+"\"variable is not defined\" errors?]{1}"
+msgstr "私はグローバル名前空間を汚染するライブラリを使用しています。\"variable is "
+"not defined\"というエラーを防ぐには？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[How do I use experimental JavaScript (ES Next) features?]{1}"
+msgstr "実験的なJavaScriptの機能（ES Next）を使用するには？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Can I use a JavaScript language variant, like Flow or TypeScript?]{1}"
+msgstr "FlowやTypeScriptのようなJavaScriptの代替言語を使用できますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[What about Mocha, Jest, Jasmine, QUnit, etc?]{1}"
+msgstr "Mocha、Jest、Jasmine、QUnitなどはどうすれば？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[What about Web Workers and Service Workers?]{1}"
+msgstr "Web WorkersとService Workersはどうすれば？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[What is the difference between warnings and errors?]{1}"
+msgstr "警告とエラーの違いは？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Can I check code inside of Markdown or HTML files?]{1}"
+msgstr "MarkdownやHTMLファイル内のコードをチェックできますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Is there a Git `pre-commit` hook?]{1}"
+msgstr "Gitの`pre-commit`フックはありますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[How do I make the output all colorful and pretty?]{1}"
+msgstr "出力をすべてカラフルで綺麗にするには？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[Is there a Node.js API?]{1}"
+msgstr "Node.jsのAPIはありますか？"
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+#, fuzzy
+msgid "[How do I contribute to StandardJS?]{1}"
+msgstr "StandardJSにコントリビュートするには？"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Install"
+msgstr "インストール"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"The easiest way to use JavaScript Standard Style is to install it globally "
+"as a Node command line program. Run the following command in Terminal:"
+msgstr ""
+"JavaScript Standard Styleを使用する最も簡単な方法は、Nodeのコマンドラインプロ"
+"グラムとしてグローバルインストールすることです。ターミナルで次のコマンドを実"
+"行してください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Or, you can install `standard` locally, for use in a single project:"
+msgstr "または、`standard`を一つのプロジェクトで使うためにローカルインストールできま"
+"す。："
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"*Note: To run the preceding commands, [Node.js]{1} and [npm]{2} must be "
+"installed.*"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Usage"
+msgstr "使い方"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"After you've installed `standard`, you should be able to use the `standard` "
+"program. The simplest use case would be checking the style of all JavaScript "
+"files in the current working directory:"
+msgstr ""
+"`standard`をインストールしたら、`standard`プログラムが使用できるはずです。最"
+"もシンプルな使用例は、現在の作業ディレクトリ内のすべてのJavaScriptファイルの"
+"スタイルをチェックすることです。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "If you've installed `standard` locally, run with `npx` instead:"
+msgstr "`standard`をローカルにインストールした場合は、かわりに`npx`で実行します。:"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"You can optionally pass in a directory (or directories) using the glob "
+"pattern. Be sure to quote paths containing glob patterns so that they are "
+"expanded by `standard` instead of your shell:"
+msgstr ""
+"globパターンを用いてディレクトリを渡すこともできます。globパターンを含むパス"
+"は、シェルではなく`standard`で展開されるようにクォートで囲んでください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"**Note:** by default `standard` will look for all files matching the "
+"patterns: `**/*.js`, `**/*.jsx`."
+msgstr ""
+"**注：** デフォルトでは、`standard`は次のパターンに一致するすべてのファイルを"
+"探索します。：`**/*.js`、`**/*.jsx`\n"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "What you might do if you're clever"
+msgstr "賢いあなたがすべきこと"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid "Add it to `package.json`"
+msgstr "以下を`package.json`に追加します"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid "Style is checked automatically when you run `npm test`"
+msgstr "スタイルは`npm test`を実行する際に自動的にチェックされます"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid "Never give style feedback on a pull request again!"
+msgstr "もう二度とプルリクエストでスタイルのフィードバックをさせないでください！"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Why should I use JavaScript Standard Style?"
+msgstr "なぜJavaScript Standard Styleを使うべきなのですか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"The beauty of JavaScript Standard Style is that it's simple. No one wants to "
+"maintain multiple hundred-line style configuration files for every module/"
+"project they work on. Enough of this madness!"
+msgstr ""
+"JavaScript Standard Styleの美しさは、シンプルなことです。作業しているすべての"
+"モジュール/プロジェクトのために、数百行のスタイル設定ファイルをいくつも管理し"
+"たい人はいません。こんな狂気はもうたくさんです！"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid ""
+"**No configuration.** The easiest way to enforce consistent style in your "
+"project. Just drop it in."
+msgstr "**設定なし** プロジェクトに一貫性のあるスタイルを適用する最も簡単な方法です。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Adopting `standard` style means ranking the importance of code clarity and "
+"community conventions higher than personal style. This might not make sense "
+"for 100% of projects and development cultures, however open source can be a "
+"hostile place for newbies. Setting up clear, automated contributor "
+"expectations makes a project healthier."
+msgstr ""
+"`standard`なスタイルを採用することは、個人のスタイルよりもコードの明確さやコ"
+"ミュニティの慣習を重要視することを意味します。これはプロジェクトと開発文化に"
+"とって100%意義があるわけではありませんが、オープンソースは初学者には適さない"
+"場所になりえます。コントリビューターの期待を明確にすることで、プロジェクトが"
+"より健全な状態になります。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"For more info, see the conference talk [\"Write Perfect Code with Standard "
+"and ESLint\"]{1}. In this talk, you'll learn about linting, when to use "
+"`standard` versus `eslint`, and how `prettier` compares to `standard`."
+msgstr ""
+"より詳しくは、[\"Write Perfect Code with Standard and ESLint\"](https://www."
+"youtube.com/watch?v=kuHfMw8j4xk)をご覧ください。このトークでは、リントについ"
+"て、`standard`と`eslint`の使い分けについて、そして`prettier`との比較について"
+"学ぶことができます。"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Who uses JavaScript Standard Style?"
+msgstr "誰がJavaScript Standard Styleを使用していますか？"
+
+#: standard/docs/README-en.md%2Btable-cell
+msgctxt "standard/docs/README-en.md+table-cell"
+msgid "[{1}]{2}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Btable-cell
+msgid "Your Logo Here"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"In addition to companies, many community members use `standard` on packages "
+"that are [too numerous]{1} to list here."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"`standard` is also the top-starred linter in GitHub's [Clean Code Linter]{1} "
+"showcase."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Are there text editor plugins?"
+msgstr "テキストエディタのプラグインはありますか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"First, install `standard`. Then, install the appropriate plugin for your "
+"editor:"
+msgstr "まず、`standard`をインストールしてください。それから、あなたのエディタに適し"
+"たプラグインをインストールしてください。"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Sublime Text"
+msgstr "Sublime Text"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Using **[Package Control]{1}**, install **[SublimeLinter]{2}** and "
+"**[SublimeLinter-contrib-standard]{3}**."
+msgstr ""
+"**[Package Control][sublime-1]** を用いて、 **[SublimeLinter][sublime-2]** "
+"と **[SublimeLinter-contrib-standard][sublime-3]** "
+"をインストールしてください。\n"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "For automatic formatting on save, install **[StandardFormat]{1}**."
+msgstr "保存時に自動でフォーマットするには、 **[StandardFormat][sublime-4]** "
+"をインストールしてください。"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Atom"
+msgstr "Atom"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "Install **[linter-js-standard]{1}**."
+msgstr "**[linter-js-standard][atom-1]** をインストールしてください。\n"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-5"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Alternatively, you can install **[linter-js-standard-engine]{1}**. Instead "
+"of bundling a version of `standard` it will automatically use the version "
+"installed in your current project. It will also work out of the box with "
+"other linters based on **[standard-engine]{2}**."
+msgstr ""
+"あるいは、 **[linter-js-standard-engine][atom-4]** をインストールしてもよいで"
+"しょう。バンドルされた`standard`のバージョンではなく、プロジェクトにインスト"
+"ールされているバージョンが自動的に使用されます。 また、 **[standard-"
+"engine][atom-5]** を元にした他のリンターでも動作します。"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"For automatic formatting, install **[standard-formatter]{1}**. For snippets, "
+"install **[standardjs-snippets]{2}**."
+msgstr ""
+"自動フォーマットには、 **[standard-formatter][atom-2]** "
+"をインストールしてください。スニペットには、 **[standardjs-"
+"snippets][atom-3]** をインストールしてください。"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-5"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vscode-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Install **[vscode-standard]{1}**. (Includes support for automatic "
+"formatting.)"
+msgstr "**[vscode-standard][vscode-1]** "
+"をインストールしてください（自動フォーマットもサポートしています）。\n"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vscode-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vscode-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"For JS snippets, install: **[vscode-standardjs-snippets]{1}**. For React "
+"snippets, install **[vscode-react-standard]{2}**."
+msgstr ""
+"JavaScriptのスニペットには、 **[vscode-standardjs-snippets][vscode-2]** "
+"をインストールしてください。Reactのスニペットには、 **[vscode-react-"
+"standard][vscode-3]** をインストールしてください。"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vscode-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vscode-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vscode-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Vim"
+msgstr "Vim"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vim-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "Install **[ale]{1}**. And add these lines to your `.vimrc` file."
+msgstr "**[ale][vim-1]** をインストールしてください。そして、次の行を`."
+"vimrc`ファイルに追加してください。\n"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"This sets standard as your only linter and fixer for javascript files and so "
+"prevents conflicts with eslint. For linting and automatic fixing on save, "
+"add these lines to `.vimrc`:"
+msgstr ""
+"これは、standardをJavaScriptファイルのための唯一のリンターとして設定し、eslin"
+"tとの競合を防ぎます。保存時に自動でリントと修正を行なうには、次の行を`."
+"vimrc`に追加してください。："
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vim-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vim-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Alternative plugins to consider include [neomake]{1} and [syntastic]{2}, "
+"both of which have built-in support for `standard` (though configuration may "
+"be necessary)."
+msgstr ""
+"考慮すべき他のプラグインには[neomake][vim-2]や[syntastic][vim-3]があり、いず"
+"れも`standard`のビルトインサポートを備えています（設定が必要かもしれませんが"
+"）。"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vim-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vim-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vim-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Emacs"
+msgstr "Emacs"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "emacs-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "emacs-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Install **[Flycheck]{1}** and check out the **[manual]{2}** to learn how to "
+"enable it in your projects."
+msgstr ""
+"**[Flycheck][emacs-1]** をインストールし、"
+"プロジェクトで有効にする方法については **[マニュアル][emacs-2]** "
+"を参照してください。\n"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "emacs-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "emacs-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Brackets"
+msgstr "Brackets"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "brackets-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Search the extension registry for **[\"Standard Code Style\"]{1}** and click "
+"\"Install\"."
+msgstr ""
+"extension registryで **[\"Standard Code Style\"][brackets-1]** を検索し、"
+"\"Install\"をクリックしてください。"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "brackets-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "WebStorm (PhpStorm, IntelliJ, RubyMine, JetBrains, etc.)"
+msgstr "WebStorm（PhpStorm、IntelliJ、RubyMine、JetBrainsなど）"
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"WebStorm [recently announced native support]{1} for `standard` directly in "
+"the IDE."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "webstorm-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"If you still prefer to configure `standard` manually, [follow this guide]{1}"
+". This applies to all JetBrains products, including PhpStorm, IntelliJ, "
+"RubyMine, etc."
+msgstr ""
+"`standard`を手動で設定したい場合、[こちらのガイド][webstorm-1]に従ってくださ"
+"い。これは、PhpStorm、IntelliJ、RubyMineなど、すべてのJetBrains製品に適用され"
+"ます。"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "webstorm-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Is there a readme badge?"
+msgstr "readme用のバッジはありますか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Yes! If you use `standard` in your project, you can include one of these "
+"badges in your readme to let people know that your code is using the "
+"standard style."
+msgstr ""
+"はい！プロジェクトで`standard`を使っているなら、コードがstandardスタイルを使"
+"用していることを示すためにこれらのバッジをreadmeに含めることができます。"
+
+#: standard/docs/README-en.md%2Bp
+msgctxt "standard/docs/README-en.md+p"
+msgid "[![JavaScript Style Guide]{1}]{2}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "I disagree with rule X, can you change it?"
+msgstr "私はあるルールに反対なのですが、変更してもらえますか？"
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "bikeshedding"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"No. The whole point of `standard` is to save you time by avoiding "
+"[bikeshedding]{1} about code style. There are lots of debates online about "
+"tabs vs. spaces, etc. that will never be resolved. These debates just "
+"distract from getting stuff done. At the end of the day you have to 'just "
+"pick something', and that's the whole philosophy of `standard` -- its a "
+"bunch of sensible 'just pick something' opinions. Hopefully, users see the "
+"value in that over defending their own opinions."
+msgstr ""
+"いいえ。`standard`のすべては、スタイルについての[bikeshedding][bikeshedding]"
+"（自転車置き場の議論）を避けることであなたの時間をセーブするためにあります。"
+"タブ対スペースについてのような議論はオンライン上にたくさんありますが、決して"
+"結論は出ません。これらの議論はただ物事を終わらせることから目を逸らさせるだけ"
+"です。結局のところ、あなたは何かを選ばなければなりません。これは、`standard`"
+"の哲学のすべてです。うまくいけば、ユーザーは自身の意見を守るうえでその価値に"
+"気づくでしょう。"
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"There are a couple of similar packages for anyone who does not want to "
+"completely accept `standard`:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "[semistandard]{1} - standard, with semicolons"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "[standardx]{1} - standard, with custom tweaks"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"If you really want to configure hundreds of ESLint rules individually, you "
+"can always use `eslint` directly with [eslint-config-standard]{1} to layer "
+"your changes on top. [`standard-eject`]{2} can help you migrate from "
+"`standard` to `eslint` and `eslint-config-standard`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Pro tip: Just use `standard` and move on. There are actual real problems "
+"that you could spend your time solving! :P"
+msgstr "Pro tip: ただ`standard`を使っていってください。時間をかけて解決すべき現実の問"
+"題があるでしょう！ :P"
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "bikeshedding"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "But this isn't a real web standard!"
+msgstr "でもこれは本当のウェブ標準ではありません！"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Of course it's not! The style laid out here is not affiliated with any "
+"official web standards groups, which is why this repo is called `standard/"
+"standard` and not `ECMA/standard`."
+msgstr ""
+"もちろん違います！ここに記載されたルールはいかなるウェブ標準グループにも属し"
+"ていません。これは、このリポジトリが`standard/standard`であり、、`ECMA/"
+"standard`ではないゆえんです。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"The word \"standard\" has more meanings than just \"web standard\" :-) For "
+"example:"
+msgstr "\"standard\"という言葉には、単なる\"ウェブ標準\"よりも多くの意味があります。 "
+":-) たとえば："
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid "This module helps hold our code to a high *standard of quality*."
+msgstr "このモジュールは、コードを高い*品質基準*に保つのに役立ちます。"
+
+#: standard/docs/README-en.md%2Blist-item.p
+#, fuzzy, markdown-text
+msgid ""
+"This module ensures that new contributors follow some basic *style "
+"standards*."
+msgstr "このモジュールは、新たなコントリビューターがいくつかの基本的な*スタイル基準*"
+"に従うことを保証します。"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Is there an automatic formatter?"
+msgstr "自動フォーマッターはありますか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Yes! You can use `standard --fix` to fix most issues automatically."
+msgstr "はい！ ほとんどの問題を自動的に修正するために、`standard --fix`が使えます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"`standard --fix` is built into `standard` for maximum convenience. Most "
+"problems are fixable, but some errors (like forgetting to handle errors) "
+"must be fixed manually."
+msgstr ""
+"`standard --fix`は、最大限の利便性のために`standard`にビルトインされています"
+"。ほとんどの問題は修正可能ですが、いくつかのエラー（エラーのハンドルし忘れな"
+"ど）は手動で修正する必要があります。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"To save you time, `standard` outputs the message \"`Run standard --fix to "
+"automatically fix some problems`\" when it detects problems that can be "
+"fixed automatically."
+msgstr ""
+"時間をセーブするために、`standard`は自動的に修正可能な問題を検出すると\"`Run "
+"standard --fix to automatically fix some problems`"
+"\"というメッセージを出力します。"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "How do I ignore files?"
+msgstr "ファイルを無視するには？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Certain paths (`node_modules/`, `coverage/`, `vendor/`, `*.min.js`, and "
+"files/folders that begin with `.` like `.git/`) are automatically ignored."
+msgstr ""
+"特定のパス（`node_modules/`、`coverage/`、`vendor/`、`*.min.js`、`.git/"
+"`のようなドットファイル）は自動的に無視されます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Paths in a project's root `.gitignore` file are also automatically ignored."
+msgstr "プロジェクトルートの`."
+"gitignore`ファイルに記載されているパスも自動的に無視されます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Sometimes you need to ignore additional folders or specific minified files. "
+"To do that, add a `standard.ignore` property to `package.json`:"
+msgstr ""
+"ときには、追加のフォルダや特定の縮小ファイルを無視する必要があるでしょう。そ"
+"のためには、`package.json`に`standard.ignore`プロパティを追加してください。："
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "How do I disable a rule?"
+msgstr "ルールを無効にするには？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"In rare cases, you'll need to break a rule and hide the error generated by "
+"`standard`."
+msgstr "まれにルールを破り、`standard`によって生成されたエラーを非表示にする必要があ"
+"るでしょう。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"JavaScript Standard Style uses [ESLint]{1} under-the-hood and you can hide "
+"errors as you normally would if you used ESLint directly."
+msgstr ""
+"JavaScript Standard Styleは内部で[ESLint](http://eslint.org/)を使用しています"
+"が、ESLintを直接使用した場合、通常どおりエラーを非表示にすることができます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Disable **all rules** on a specific line:"
+msgstr "特定の行の **すべてのルール** を無効にするには："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Or, disable **only** the `\"no-use-before-define\"` rule:"
+msgstr "あるいは、`\"no-use-before-define\"`ルール **のみ** を無効にするには："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Or, disable the `\"no-use-before-define\"` rule for **multiple lines**:"
+msgstr "あるいは、 **複数行** の`\"no-use-before-define\"`ルールを無効にするには："
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid ""
+"I use a library that pollutes the global namespace. How do I prevent "
+"\"variable is not defined\" errors?"
+msgstr "私はグローバル名前空間を汚染するライブラリを使用しています。\"variable is "
+"not defined\"というエラーを防ぐには？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Some packages (e.g. `mocha`) put their functions (e.g. `describe`, `it`) on "
+"the global object (poor form!). Since these functions are not defined or "
+"`require`'d anywhere in your code, `standard` will warn that you're using a "
+"variable that is not defined (usually, this rule is really useful for "
+"catching typos!). But we want to disable it for these global variables."
+msgstr ""
+"一部のパッケージ（例：`mocha`）は、関数（例：`describe`、`it`）をグローバルオ"
+"ブジェクトに配置します。これらの関数は定義されていないか、どこかで`require`さ"
+"れているため、`standard`は未定義の変数を使用していることを警告します（通常、"
+"このルールはタイプミスを検知するのに本当に役立ちます！）。しかし、これらのグ"
+"ローバル変数に対しては無効にしたいでしょう。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"To let `standard` (as well as humans reading your code) know that certain "
+"variables are global in your code, add this to the top of your file:"
+msgstr ""
+"特定の変数がグローバルに存在することを（コードを読んでいる人だけでなく）`stan"
+"dard`に知らせるには、次のコメントをファイルの先頭に追加します。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"If you have hundreds of files, it may be desirable to avoid adding comments "
+"to every file. In this case, run:"
+msgstr "何百ものファイルがある場合、すべてのファイルにコメントを追加しないほうが望ま"
+"しいでしょう。次のコマンドを実行してください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgctxt "standard/docs/README-en.md+p"
+msgid "Or, add this to `package.json`:"
+msgstr ""
+"#-#-#-#-#  standard/docs/README-ja.md:425 standard/docs/README-ja.md:457 "
+"standard/docs/README-ja.md:525 (type Plain text)  #-#-#-#-#\n"
+"あるいは、次の内容を`package.json`に追加してください。：\n"
+"#-#-#-#-#  standard/docs/README-ja.md:495 (type: Plain text)  #-#-#-#-#\n"
+"Or, add this to `package.json`:\n"
+"#-#-#-#-#  standard/docs/README-ja.md:425 standard/docs/README-ja.md:457 "
+"standard/docs/README-ja.md:525 (type: Plain text)  #-#-#-#-#\n"
+"あるいは、次の内容を`package.json`に追加してください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "*Note: `global` and `globals` are equivalent.*"
+msgstr "*注： `global`と`globals`は同じです。*\n"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "How do I use experimental JavaScript (ES Next) features?"
+msgstr "実験的なJavaScriptの機能（ES Next）を使用するには？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"`standard` supports the latest ECMAScript features, ES8 (ES2017), including "
+"language feature proposals that are in \"Stage 4\" of the proposal process."
+msgstr ""
+"`standard`は、最新のECMAScriptの機能、プロポーザルプロセスの「ステージ4」にあ"
+"る言語機能の提案を含むES8（ES2017）をサポートしています。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"To support experimental language features, `standard` supports specifying a "
+"custom JavaScript parser. Before using a custom parser, consider whether the "
+"added complexity is worth it."
+msgstr ""
+"実験的な言語機能をサポートするため、`standard`はJavaScriptのカスタムパーサー"
+"を指定することができます。カスタムパーサーを使用する前に、複雑さに見合う価値"
+"があるかどうかをよく考えてください。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "To use a custom parser, first install it from npm:"
+msgstr "カスタムパーサーを使用するには、まずnpmから以下をインストールしてください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgctxt "standard/docs/README-en.md+p"
+msgid "Then run:"
+msgstr "そして、次のコマンドを実行します。："
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Can I use a JavaScript language variant, like Flow or TypeScript?"
+msgstr "FlowやTypeScriptのようなJavaScriptの代替言語を使用できますか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"`standard` supports the latest ECMAScript features. However, Flow and "
+"TypeScript add new syntax to the language, so they are not supported out-of-"
+"the-box."
+msgstr ""
+"`standard`は最新のECMAScriptの機能をサポートしています。しかしながら、FlowやT"
+"ypeScriptは言語に新たな構文を追加するため、そのまま使用することはできません。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"For TypeScript, an official variant `ts-standard` is supported and "
+"maintained that provides a very similar experience to `standard`."
+msgstr ""
+"For TypeScript, an official variant `ts-standard` is supported and "
+"maintained that provides a very similar experience to `standard`."
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"For other JavaScript language variants, `standard` supports specifying a "
+"custom JavaScript parser as well as an ESLint plugin to handle the changed "
+"syntax. Before using a JavaScript language variant, consider whether the "
+"added complexity is worth it."
+msgstr ""
+"JavaScriptの代替言語をサポートするため、`standard`は変更された構文をハンドル"
+"するためのESLintプラグインはもちろん、JavaScriptのカスタムパーサーの指定をサ"
+"ポートしています。JavaScriptの代替言語を使う前に、複雑さに見合う価値があるか"
+"どうかをよく考えてください。"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "TypeScript"
+msgstr "TypeScript"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"[`ts-standard`]{1} is the officially supported variant for TypeScript. `ts-"
+"standard` supports all the same rules and options as `standard` and includes "
+"additional TypeScript specific rules. `ts-standard` will even lint regular "
+"`javascript` files by setting the configuration in `tsconfig.json`."
+msgstr ""
+"[`ts-standard`](https://github.com/standard/ts-standard) is the officially "
+"supported variant for TypeScript. `ts-standard` supports all the same rules "
+"and options as `standard` and includes additional TypeScript specific rules. "
+"`ts-standard` will even lint regular `javascript` files by setting the "
+"configuration in `tsconfig.json`."
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Then run (where `tsconfig.json` is located in the working directory):"
+msgstr "Then run (where `tsconfig.json` is located in the working directory):"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"*Note: To include additional files in linting such as test files, create a "
+"`tsconfig.eslint.json` file to use instead.*"
+msgstr ""
+"*Note: To include additional files in linting such as test files, create a "
+"`tsconfig.eslint.json` file to use instead.*\n"
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"If you really want to configure hundreds of ESLint rules individually, you "
+"can always use eslint directly with [`eslint-config-standard-with-"
+"typescript`]{1} to layer your changes on top."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Flow"
+msgstr "Flow"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"To use Flow, you need to run `standard` with `@babel/eslint-parser` as the "
+"parser and `eslint-plugin-flowtype` as a plugin."
+msgstr ""
+"Flowを使用するには、`@babel/eslint-parser`をパーサとして、`eslint-plugin-"
+"flowtype`をプラグインとして`standard`を実行する必要があります。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "*Note: `plugin` and `plugins` are equivalent.*"
+msgstr "*注： `plugin`と`plugins`は同じです。*\n"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "What about Mocha, Jest, Jasmine, QUnit, etc?"
+msgstr "Mocha、Jest、Jasmine、QUnitなどはどうすれば？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "To support mocha in test files, add this to the top of the test files:"
+msgstr "テストファイルでmochaをサポートするには、次のコメントをテストファイルの先頭に"
+"追加します。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Or, run:"
+msgstr "あるいは、次のコマンドを実行してください。："
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Where `mocha` can be one of `jest`, `jasmine`, `qunit`, `phantomjs`, and so "
+"on. To see a full list, check ESLint's [specifying environments]{1} "
+"documentation. For a list of what globals are available for these "
+"environments, check the [globals]{2} npm module."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "*Note: `env` and `envs` are equivalent.*"
+msgstr "*注： `env`と`envs`は同じです。*\n"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "What about Web Workers and Service Workers?"
+msgstr "Web WorkersとService Workersはどうすれば？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Add this to the top of web worker files:"
+msgstr "次のコメントをweb workerファイルの先頭に追加してください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"This lets `standard` (as well as humans reading the code) know that `self` "
+"is a global in web worker code."
+msgstr ""
+"これにより、`self`がweb workerのコードでグローバルであることを（コードを読ん"
+"でいる人だけでなく）`standard`に知らせます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "For Service workers, add this instead:"
+msgstr "Service workersには、かわりに次のコメントを追加してください。："
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "What is the difference between warnings and errors?"
+msgstr "警告とエラーの違いは？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"`standard` treats all rule violations as errors, which means that `standard` "
+"will exit with a non-zero (error) exit code."
+msgstr "`standard`は、すべてのルール違反をエラーとして扱います。つまり、0以外の終了コ"
+"ード（エラー）で終了するということです。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"However, we may occasionally release a new major version of `standard` which "
+"changes a rule that affects the majority of `standard` users (for example, "
+"transitioning from `var` to `let`/`const`). We do this only when we think "
+"the advantage is worth the cost and only when the rule is [auto-fixable]{1}."
+msgstr ""
+"しかしながら、我々はときどき`standard`のユーザーの大多数に影響を与えうるルー"
+"ルを変更するような、新しいメジャーバージョンをリリースすることがあります（た"
+"とえば、`var`から`let`、`const`への移行など）。これを行なうのは、利点がコスト"
+"に見合うと考えられ、かつルールが[自動修正可能](#is-there-an-automatic-"
+"formatter)な場合に限られます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"In these situations, we have a \"transition period\" where the rule change "
+"is only a \"warning\". Warnings don't cause `standard` to return a non-zero "
+"(error) exit code. However, a warning message will still print to the "
+"console. During the transition period, `using standard --fix` will update "
+"your code so that it's ready for the next major version."
+msgstr ""
+"このような状況では、ルールの変更を「警告」に留めた「移行期間」を設けています"
+"。警告は、`standard`に0以外の終了コード（エラー）を返させません。しかしながら"
+"、警告メッセージは依然としてコンソールに表示されます。移行期間中に`standard "
+"--fix`を使うと、次のメジャーバージョンに備えてあなたのコードが更新されます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"The slow and careful approach is what we strive for with `standard`. We're "
+"generally extremely conservative in enforcing the usage of new language "
+"features. We want using `standard` to be light and fun and so we're careful "
+"about making changes that may get in your way. As always, you can [disable a "
+"rule]{1} at any time, if necessary."
+msgstr ""
+"我々は、`standard`でゆっくりと慎重なアプローチに励んでいます。我々は一般的に"
+"、新しい言語機能の使用を強制することに関して極めて保守的です。我々は`standard"
+"`を気軽で楽しいものにしたいので、その妨げになるような変更には留意しています。"
+"いつも通り、必要に応じていつでもルールを無効にすることができます。"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Can I check code inside of Markdown or HTML files?"
+msgstr "MarkdownやHTMLファイル内のコードをチェックできますか？"
+
+#: standard/docs/README-en.md%2Bp
+msgid "To check code inside Markdown files, use [`standard-markdown`]{1}."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Alternatively, there are ESLint plugins that can check code inside Markdown, "
+"HTML, and many other types of language files:"
+msgstr "あるいは、MarkdownやHTML、その他多くの言語ファイル内のコードをチェックできるE"
+"SLintプラグインがあります。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "To check code inside Markdown files, use an ESLint plugin:"
+msgstr "Markdownファイル内のコードをチェックするには、次のESlintプラグインを使用して"
+"ください。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Then, to check JS that appears inside code blocks, run:"
+msgstr "そして、コードブロック内のJavaScriptをチェックするために次のコマンドを実行し"
+"ます。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "To check code inside HTML files, use an ESLint plugin:"
+msgstr "HTMLファイル内のコードをチェックするには、次のESlintプラグインを使用してくだ"
+"さい。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid "Then, to check JS that appears inside `<script>` tags, run:"
+msgstr "そして、`<script>`タグ内のJavaScriptをチェックするために次のコマンドを実行し"
+"ます。：\n"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Is there a Git `pre-commit` hook?"
+msgstr "Gitの`pre-commit`フックはありますか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"Yes! Hooks are great for ensuring that unstyled code never even makes it "
+"into your repo. Never give style feedback on a pull request again!"
+msgstr ""
+"はい！フックは、スタイルが適用されていないコードがリポジトリに含まれないこと"
+"を確実にするのに最適です。 "
+"もう二度とプルリクエストでスタイルのフィードバックをさせないでください！"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "You even have a choice..."
+msgstr "選択肢があります……"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Install your own hook"
+msgstr "独自のフックをインストール"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Use a `pre-commit` hook"
+msgstr "`pre-commit`フックを使用"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy
+msgid ""
+"The [pre-commit]{1} library allows hooks to be declared within a `.pre-"
+"commit-config.yaml` configuration file in the repo, and therefore more "
+"easily maintained across a team."
+msgstr ""
+"[pre-commit](https://pre-commit.com/)ライブラリを使うとリポジトリ内の`.pre-"
+"commit-config.yaml`ファイルでフックを宣言できるようになるので、チーム全体でよ"
+"り簡単に管理できます。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Users of pre-commit can simply add `standard` to their `.pre-commit-config."
+"yaml` file, which will automatically fix `.js`, `.jsx`, `.mjs` and `.cjs` "
+"files:"
+msgstr ""
+"pre-commitのユーザーは、`.pre-commit-config."
+"yaml`ファイルに`standard`を追加するだけで、`.js`、`.jsx`、`.ts`、`.tsx`、`."
+"mjs`、`.cjs`ファイルが自動的に修正されます。："
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Alternatively, for more advanced styling configurations, use `standard` "
+"within the [eslint hook]{1}:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "How do I make the output all colorful and pretty?"
+msgstr "出力をすべてカラフルで綺麗にするには？"
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The built-in output is simple and straightforward, but if you like shiny "
+"things, install [snazzy]{1}:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "And run:"
+msgstr "そして、次のコマンドを実行します。："
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"There's also [standard-tap]{1}, [standard-json]{2}, [standard-reporter]{3}, "
+"and [standard-summary]{4}."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Is there a Node.js API?"
+msgstr "Node.jsのAPIはありますか？"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Yes!"
+msgstr "はい！"
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "`async standard.lintText(text, [opts])`"
+msgstr "`async standard.lintText(text, [opts])`"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Lint the provided source `text`. An `opts` object may be provided:"
+msgstr "渡された`text`をリントします。`opts`オブジェクトを指定できます。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"All options are optional, though some ESLint plugins require the `filename` "
+"option."
+msgstr ""
+"All options are optional, though some ESLint plugins require the `filename` "
+"option."
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgctxt "standard/docs/README-en.md+p"
+msgid ""
+"Additional options may be loaded from a `package.json` if it's found for the "
+"current working directory. See below for further details."
+msgstr ""
+"#-#-#-#-#  standard/docs/README-ja.md:725 (type Plain text)  #-#-#-#-#\n"
+"現在の作業ディレクトリ内に`package."
+"json`があれば、追加のオプションが読み込まれます。\n"
+"#-#-#-#-#  standard/docs/README-ja.md:771 (type: Plain text)  #-#-#-#-#\n"
+"Additional options may be loaded from a `package.json` if it's found for the "
+"current working directory. See below for further details."
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Returns a `Promise` resolving to the `results` or rejected with an `Error`."
+msgstr ""
+"Returns a `Promise` resolving to the `results` or rejected with an `Error`."
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "The `results` object will contain the following properties:"
+msgstr "`results`オブジェクトは、次のプロパティを含みます。："
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "`async standard.lintFiles(files, [opts])`"
+msgstr "`async standard.lintFiles(files, [opts])`"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Lint the provided `files` globs. An `opts` object may be provided:"
+msgstr "渡された`files`をリントします。`opts`オブジェクトを指定できます。："
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Both `ignore` and `files` patterns are resolved relative to the current "
+"working directory."
+msgstr ""
+"Both `ignore` and `files` patterns are resolved relative to the current "
+"working directory."
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Returns a `Promise` resolving to the `results` or rejected with an `Error` ("
+"same as above)."
+msgstr ""
+"Returns a `Promise` resolving to the `results` or rejected with an `Error` ("
+"same as above)."
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "How do I contribute to StandardJS?"
+msgstr "StandardJSにコントリビュートするには？"
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Contributions are welcome! Check out the [issues]{1} or the [PRs]{2}, and "
+"make your own if you want something that you don't see there."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid ""
+"Want to chat? Join contributors on IRC in the `#standard` channel on "
+"freenode."
+msgstr "チャットしたい？それなら、freenodeの`#standard`チャンネルでIRCに参加してくだ"
+"さい。"
+
+#: standard/docs/README-en.md%2Bp
+#, fuzzy, markdown-text
+msgid "Here are some important packages in the `standard` ecosystem:"
+msgstr "`standard`のエコシステムには、いくつかの重要なパッケージがあります："
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[standard]{1}** - this repo"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[standard-engine]{1}** - cli engine for arbitrary eslint rules"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[eslint-config-standard]{1}** - eslint rules for standard"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[eslint-config-standard-jsx]{1}** - eslint rules for standard (JSX)"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[eslint]{1}** - the linter that powers standard"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[snazzy]{1}** - pretty terminal output for standard"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[standard-www]{1}** - code for https://standardjs.com"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[semistandard]{1}** - standard, with semicolons (if you must)"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[standardx]{1}** - standard, with custom tweaks"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"There are also many **[editor plugins]{1}**, a list of **[npm packages that "
+"use `standard`]{2}**, and an awesome list of **[packages in the `standard` "
+"ecosystem]{3}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "Security Policies and Procedures"
+msgstr "セキュリティポリシーと手続き"
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The `standard` team and community take all security bugs in `standard` "
+"seriously. Please see our [security policies and procedures]{1} document to "
+"learn how to report issues."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+#, fuzzy, markdown-text, no-wrap
+msgid "License"
+msgstr "ライセンス"
+
+#: standard/docs/README-en.md%2Bp
+msgid "[MIT]{1}. Copyright (c) [Feross Aboukhadijeh]{2}."
+msgstr ""
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "<h1 align=\"center\">\n"
+#~ "  <a href=\"https://standardjs.com\"><img "
+#~ "src=\"https://cdn.rawgit.com/standard/standard/master/sticker.svg\" "
+#~ "alt=\"Standard - JavaScript Style Guide\" width=\"200\"></a>\n"
+#~ "  <br>\n"
+#~ "  JavaScript Standard Style\n"
+#~ "  <br>\n"
+#~ "  <br>\n"
+#~ "</h1>\n"
+#~ msgstr ""
+#~ "<h1 align=\"center\">\n"
+#~ "  <a href=\"https://standardjs.com\"><img "
+#~ "src=\"https://cdn.rawgit.com/standard/standard/master/sticker.svg\" "
+#~ "alt=\"Standard - JavaScript Style Guide\" width=\"200\"></a>\n"
+#~ "  <br>\n"
+#~ "  JavaScript Standard Style\n"
+#~ "  <br>\n"
+#~ "  <br>\n"
+#~ "</h1>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "<p align=\"center\">\n"
+#~ "  <a href=\"https://discord.gg/ZegqCBr\"><img "
+#~ "src=\"https://img.shields.io/discord/612704110008991783\" "
+#~ "alt=\"discord\"></a>\n"
+#~ "  <a "
+#~ "href=\"https://github.com/standard/standard/actions/workflows/test-external.yml\"><img "
+#~ "src=\"https://github.com/standard/standard/actions/workflows/test-external.yml/badge.svg?branch=master\" "
+#~ "alt=\"External tests\"></a>\n"
+#~ "  <a "
+#~ "href=\"https://github.com/standard/standard/actions/workflows/test-internal.yml\"><img "
+#~ "src=\"https://github.com/standard/standard/actions/workflows/test-internal.yml/badge.svg?branch=master\" "
+#~ "alt=\"Internal tests\"></a>\n"
+#~ "  <a "
+#~ "href=\"https://github.com/standard/standard/actions?query=workflow%3A%22Old+test%22\"><img "
+#~ "src=\"https://github.com/standard/standard/workflows/Old%20test/badge.svg\" "
+#~ "alt=\"status badge old Node test\"></a>\n"
+#~ "  <a href=\"https://www.npmjs.com/package/standard\"><img "
+#~ "src=\"https://img.shields.io/npm/v/standard.svg\" alt=\"npm version\"></a>\n"
+#~ "  <a href=\"https://www.npmjs.com/package/eslint-config-standard\"><img "
+#~ "src=\"https://img.shields.io/npm/dm/eslint-config-standard.svg\" alt=\"npm "
+#~ "downloads\"></a>\n"
+#~ "  <a href=\"https://standardjs.com\"><img "
+#~ "src=\"https://img.shields.io/badge/code_style-standard-brightgreen.svg\" "
+#~ "alt=\"Standard - JavaScript Style Guide\"></a>\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<p align=\"center\">\n"
+#~ "  <a href=\"https://discord.gg/ZegqCBr\"><img "
+#~ "src=\"https://img.shields.io/discord/612704110008991783\" "
+#~ "alt=\"discord\"></a>\n"
+#~ "  <a href=\"https://travis-ci.org/standard/standard\"><img "
+#~ "src=\"https://img.shields.io/travis/standard/standard/master.svg\" "
+#~ "alt=\"travis\"></a>\n"
+#~ "  <a href=\"https://www.npmjs.com/package/standard\"><img "
+#~ "src=\"https://img.shields.io/npm/v/standard.svg\" alt=\"npm version\"></a>\n"
+#~ "  <a href=\"https://www.npmjs.com/package/eslint-config-standard\"><img "
+#~ "src=\"https://img.shields.io/npm/dm/eslint-config-standard.svg\" alt=\"npm "
+#~ "downloads\"></a>\n"
+#~ "  <a href=\"https://standardjs.com\"><img "
+#~ "src=\"https://img.shields.io/badge/code_style-standard-brightgreen.svg\" "
+#~ "alt=\"Standard - JavaScript Style Guide\"></a>\n"
+#~ "</p>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "<h5 align=\"center\">\n"
+#~ "  Sponsored by&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://socket.dev\"><img "
+#~ "src=\"https://cdn.rawgit.com/standard/standard/master/docs/logos/socket.png\" "
+#~ "alt=\"Socket â Supply Chain Dependency Security for JavaScript and npm\" "
+#~ "height=50 valign=\"middle\"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a "
+#~ "href=\"https://wormhole.app/?utm_medium=sponsorship&utm_source=standard&utm_campaign=feross\"><img "
+#~ "src=\"https://cdn.rawgit.com/standard/standard/master/docs/logos/wormhole.png\" "
+#~ "alt=\"Wormhole\" height=50 valign=\"middle\"></a>\n"
+#~ "</h5>\n"
+#~ msgstr ""
+#~ "<h5 align=\"center\">\n"
+#~ "  Sponsored by&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://socket.dev\"><img "
+#~ "src=\"https://cdn.rawgit.com/standard/standard/master/docs/logos/socket.png\" "
+#~ "alt=\"Socket – Supply Chain Dependency Security for JavaScript and npm\" "
+#~ "height=50 valign=\"middle\"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a "
+#~ "href=\"https://wormhole.app/?utm_medium=sponsorship&utm_source=standard&utm_campaign=feross\"><img "
+#~ "src=\"https://cdn.rawgit.com/standard/standard/master/docs/logos/wormhole.png\" "
+#~ "alt=\"Wormhole\" height=50 valign=\"middle\"></a>\n"
+#~ "</h5>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "<p align=\"center\">\n"
+#~ "  <a href=\"/docs/README-en.md\">English</a> â¢\n"
+#~ "  <a href=\"/docs/README-esla.md\">EspaÃ±ol (LatinoamÃ©rica)</a> â¢\n"
+#~ "  <a href=\"/docs/README-fr.md\">FranÃ§ais</a> â¢\n"
+#~ "  <a href=\"/docs/README-id.md\">Bahasa Indonesia</a> â¢\n"
+#~ "  <a href=\"/docs/README-iteu.md\">Italiano (Italian)</a> â¢\n"
+#~ "  <a href=\"/docs/README-ja.md\">æ¥æ¬èª (Japanese)</a> â¢\n"
+#~ "  <a href=\"/docs/README-kokr.md\">íêµ­ì´ (Korean)</a> â¢\n"
+#~ "  <a href=\"/docs/README-ptbr.md\">PortuguÃªs (Brasil)</a> â¢\n"
+#~ "  <a href=\"/docs/README-zhcn.md\">ç®ä½ä¸­æ (Simplified Chinese)</a> "
+#~ "â¢\n"
+#~ "  <a href=\"/docs/README-zhtw.md\">ç¹é«ä¸­æ (Taiwanese Mandarin)</a>\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<p align=\"center\">\n"
+#~ "  <a href=\"/docs/README-en.md\">English</a> •\n"
+#~ "  <a href=\"/docs/README-esla.md\">Español (Latinoamérica)</a> •\n"
+#~ "  <a href=\"/docs/README-fr.md\">Français</a> •\n"
+#~ "  <a href=\"/docs/README-id.md\">Bahasa Indonesia</a> •\n"
+#~ "  <a href=\"/docs/README-iteu.md\">Italiano (Italian)</a> •\n"
+#~ "  <a href=\"/docs/README-ja.md\">日本語 (Japanese)</a> •\n"
+#~ "  <a href=\"/docs/README-kokr.md\">한국어 (Korean)</a> •\n"
+#~ "  <a href=\"/docs/README-ptbr.md\">Português (Brasil)</a> •\n"
+#~ "  <a href=\"/docs/README-zhcn.md\">简体中文 (Simplified Chinese)</a> •\n"
+#~ "  <a href=\"/docs/README-zhtw.md\">繁體中文 (Taiwanese Mandarin)</a>\n"
+#~ "</p>\n"
+
+#, fuzzy, markdown-text
+#~ msgid "[Install](#install)"
+#~ msgstr "[インストール](#install)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Usage](#usage)"
+#~ msgstr "[使い方](#usage)"
+
+#, fuzzy, markdown-text
+#~ msgid "[What you might do if you're clever](#what-you-might-do-if-youre-clever)"
+#~ msgstr "[賢いあなたがすべきこと](#what-you-might-do-if-youre-clever)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[Why should I use JavaScript Standard "
+#~ "Style?](#why-should-i-use-javascript-standard-style)"
+#~ msgstr ""
+#~ "[なぜJavaScript Standard "
+#~ "Styleを使うべきなのですか？](#why-should-i-use-javascript-standard-style)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Who uses JavaScript Standard Style?](#who-uses-javascript-standard-style)"
+#~ msgstr "[誰がJavaScript Standard Styleを使用していますか？](#who-uses-javascript-standard-style)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Are there text editor plugins?](#are-there-text-editor-plugins)"
+#~ msgstr "[テキストエディタのプラグインはありますか？](#are-there-text-editor-plugins)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Is there a readme badge?](#is-there-a-readme-badge)"
+#~ msgstr "[readme用のバッジはありますか？](#is-there-a-readme-badge)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[I disagree with rule X, can you change "
+#~ "it?](#i-disagree-with-rule-x-can-you-change-it)"
+#~ msgstr "[私はあるルールに反対なのですが、変更してもらえますか？](#i-disagree-with-rule-x-can-you-change-it)"
+
+#, fuzzy, markdown-text
+#~ msgid "[But this isn't a real web standard!](#but-this-isnt-a-real-web-standard)"
+#~ msgstr "[でもこれは本当のウェブ標準ではありません！](#but-this-isnt-a-real-web-standard)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Is there an automatic formatter?](#is-there-an-automatic-formatter)"
+#~ msgstr "[自動フォーマッターはありますか？](#is-there-an-automatic-formatter)"
+
+#, fuzzy, markdown-text
+#~ msgid "[How do I ignore files?](#how-do-i-ignore-files)"
+#~ msgstr "[ファイルを無視するには？](#how-do-i-ignore-files)"
+
+#, fuzzy, markdown-text
+#~ msgid "[How do I disable a rule?](#how-do-i-disable-a-rule)"
+#~ msgstr "[ルールを無効にするには？](#how-do-i-disable-a-rule)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[I use a library that pollutes the global namespace. How do I prevent "
+#~ "\"variable is not defined\" "
+#~ "errors?](#i-use-a-library-that-pollutes-the-global-namespace-how-do-i-prevent-variable-is-not-defined-errors)"
+#~ msgstr ""
+#~ "[私はグローバル名前空間を汚染するライブラリを使用しています。\"variable is not "
+#~ "defined\"というエラーを防ぐには？](#i-use-a-library-that-pollutes-the-global-namespace-how-do-i-prevent-variable-is-not-defined-errors)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[How do I use experimental JavaScript (ES Next) "
+#~ "features?](#how-do-i-use-experimental-javascript-es-next-features)"
+#~ msgstr ""
+#~ "[実験的なJavaScriptの機能（ES "
+#~ "Next）を使用するには？](#how-do-i-use-experimental-javascript-es-next-features)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[Can I use a JavaScript language variant, like Flow or "
+#~ "TypeScript?](#can-i-use-a-javascript-language-variant-like-flow-or-typescript)"
+#~ msgstr "[FlowやTypeScriptのようなJavaScriptの代替言語を使用できますか？](#can-i-use-a-javascript-language-variant-like-flow-or-typescript)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[What about Mocha, Jest, Jasmine, QUnit, "
+#~ "etc?](#what-about-mocha-jest-jasmine-qunit-etc)"
+#~ msgstr "[Mocha、Jest、Jasmine、QUnitなどはどうすれば？](#what-about-mocha-jest-jasmine-qunit-etc)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[What about Web Workers and Service "
+#~ "Workers?](#what-about-web-workers-and-service-workers)"
+#~ msgstr ""
+#~ "[Web WorkersとService "
+#~ "Workersはどうすれば？](#what-about-web-workers-and-service-workers)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[What is the difference between warnings and "
+#~ "errors?](#what-is-the-difference-between-warnings-and-errors)"
+#~ msgstr "[警告とエラーの違いは？](#what-is-the-difference-between-warnings-and-errors)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[Can I check code inside of Markdown or HTML "
+#~ "files?](#can-i-check-code-inside-of-markdown-or-html-files)"
+#~ msgstr "[MarkdownやHTMLファイル内のコードをチェックできますか？](#can-i-check-code-inside-of-markdown-or-html-files)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Is there a Git `pre-commit` hook?](#is-there-a-git-pre-commit-hook)"
+#~ msgstr "[Gitの`pre-commit`フックはありますか？](#is-there-a-git-pre-commit-hook)"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[How do I make the output all colorful and "
+#~ "pretty?](#how-do-i-make-the-output-all-colorful-and-pretty)"
+#~ msgstr "[出力をすべてカラフルで綺麗にするには？](#how-do-i-make-the-output-all-colorful-and-pretty)"
+
+#, fuzzy, markdown-text
+#~ msgid "[Is there a Node.js API?](#is-there-a-nodejs-api)"
+#~ msgstr "[Node.jsのAPIはありますか？](#is-there-a-nodejs-api)"
+
+#, fuzzy, markdown-text
+#~ msgid "[How do I contribute to StandardJS?](#how-do-i-contribute-to-standardjs)"
+#~ msgstr "[StandardJSにコントリビュートするには？](#how-do-i-contribute-to-standardjs)"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"install\"></span>\n"
+#~ msgstr "<span id=\"install\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ npm install standard --global\n"
+#~ msgstr "$ npm install standard --global\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ npm install standard --save-dev\n"
+#~ msgstr "$ npm install standard --save-dev\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "*Note: To run the preceding commands, [Node.js](http://nodejs.org) and "
+#~ "[npm](https://npmjs.com) must be installed.*\n"
+#~ msgstr "*注：上記のコマンドを実行するには、[Node.js](http://nodejs.org)と[npm](https://npmjs.com)がインストールされている必要があります。*\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"usage\"></span>\n"
+#~ msgstr "<span id=\"usage\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "$ standard\n"
+#~ "Error: Use JavaScript Standard Style\n"
+#~ "  lib/torrent.js:950:11: Expected '===' and instead saw '=='.\n"
+#~ msgstr ""
+#~ "$ standard\n"
+#~ "Error: Use JavaScript Standard Style\n"
+#~ "  lib/torrent.js:950:11: Expected '===' and instead saw '=='.\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ npx standard\n"
+#~ msgstr "$ npx standard\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard \"src/util/**/*.js\" \"test/**/*.js\"\n"
+#~ msgstr "$ standard \"src/util/**/*.js\" \"test/**/*.js\"\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"#what-you-might-do-if-youre-clever\"></span>\n"
+#~ msgstr "<span id=\"#what-you-might-do-if-youre-clever\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "   {\n"
+#~ "     \"name\": \"my-cool-package\",\n"
+#~ "     \"devDependencies\": {\n"
+#~ "       \"standard\": \"*\"\n"
+#~ "     },\n"
+#~ "     \"scripts\": {\n"
+#~ "       \"test\": \"standard && node my-tests.js\"\n"
+#~ "     }\n"
+#~ "   }\n"
+#~ msgstr ""
+#~ "  {\n"
+#~ "    \"name\": \"my-cool-package\",\n"
+#~ "    \"devDependencies\": {\n"
+#~ "      \"standard\": \"*\"\n"
+#~ "    },\n"
+#~ "    \"scripts\": {\n"
+#~ "      \"test\": \"standard && node my-tests.js\"\n"
+#~ "    }\n"
+#~ "  }\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "   $ npm test\n"
+#~ "   Error: Use JavaScript Standard Style\n"
+#~ "     lib/torrent.js:950:11: Expected '===' and instead saw '=='.\n"
+#~ msgstr ""
+#~ "  $ npm test\n"
+#~ "  Error: Use JavaScript Standard Style\n"
+#~ "    lib/torrent.js:950:11: Expected '===' and instead saw '=='.\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"why-should-i-use-javascript-standard-style\"></span>\n"
+#~ msgstr "<span id=\"why-should-i-use-javascript-standard-style\"></span>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"#who-uses-javascript-standard-style\"></span>\n"
+#~ msgstr "<span id=\"#who-uses-javascript-standard-style\"></span>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "[<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nodejs.png>](https://nodejs.org) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/npm.png>](https://www.npmjs.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/github.png>](https://github.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/wormhole.png>](https://wormhole.app) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "[<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nodejs.png>](https://nodejs.org) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/npm.png>](https://www.npmjs.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/github.png>](https://github.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/elastic.png>](https://www.elastic.co) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "[<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/express.png>](http://expressjs.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/electron.png>](http://electron.atom.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nuxtjs.png>](https://nuxtjs.org/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/elastic.png>](https://www.elastic.co) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "[<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/express.png>](http://expressjs.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/electron.png>](http://electron.atom.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nuxtjs.png>](https://nuxtjs.org/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/atom.png>](https://atom.io) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/mongodb.jpg>](https://www.mongodb.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/zendesk.png>](https://www.zendesk.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/brave.png>](https://www.brave.com) "
+#~ "| [<img width=190 "
+#~ "src=https://assets.vercel.com/image/upload/v1621541666/front/assets/logotype-black-on-white.png>](https://vercel.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/mongodb.jpg>](https://www.mongodb.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/zendesk.png>](https://www.zendesk.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/brave.png>](https://www.brave.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/zeit.png>](https://zeit.co) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/socket.png>](https://socket.dev) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nearform.png>](http://www.nearform.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/typeform.png>](https://www.typeform.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/gov-uk.png>](https://gds.blog.gov.uk) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nodesource.png>](https://nodesource.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nearform.png>](http://www.nearform.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/typeform.png>](https://www.typeform.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/gov-uk.png>](https://gds.blog.gov.uk) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/heroku.png>](https://www.heroku.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/saucelabs.png>](https://saucelabs.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/automattic.png>](https://automattic.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/godaddy.png>](https://www.godaddy.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/heroku.png>](https://www.heroku.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/saucelabs.png>](https://saucelabs.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/automattic.png>](https://automattic.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/godaddy.png>](https://www.godaddy.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/webtorrent.png>](https://webtorrent.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/ipfs.png>](https://ipfs.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/dat.png>](https://datproject.org) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/bitcoinjs.png>](https://bitcoinjs.org) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/webtorrent.png>](https://webtorrent.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/ipfs.png>](https://ipfs.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/dat.png>](https://datproject.org) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/bitcoinjs.png>](https://bitcoinjs.org) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/voltra.png>](https://voltra.co) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/treasuredata.png>](https://www.treasuredata.com) "
+#~ "| [<img alt=\"Free MIDIs, MIDI file downloads\" width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/bitmidi.png>](https://bitmidi.com) "
+#~ "| [<img width=190 alt=\"College essays, AP notes\" "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/studynotes.jpg>](https://www.apstudynotes.org) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/voltra.png>](https://voltra.co) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/treasuredata.png>](https://www.treasuredata.com) "
+#~ "| [<img alt=\"Free MIDIs, MIDI file downloads\" width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/bitmidi.png>](https://bitmidi.com) "
+#~ "| [<img width=190 alt=\"College essays, AP notes\" "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/studynotes.jpg>](https://www.apstudynotes.org) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/optiopay.png>](https://www.optiopay.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/jaguar-landrover.png>](https://www.jlrtechincubator.com/jlrti/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/bustle.jpg>](https://www.bustle.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/zentrick.png>](https://www.zentrick.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/optiopay.png>](https://www.optiopay.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/jaguar-landrover.png>](https://www.jlrtechincubator.com/jlrti/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/bustle.jpg>](https://www.bustle.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/zentrick.png>](https://www.zentrick.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/greenkeeper.png>](https://greenkeeper.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/karma.png>](https://karma-runner.github.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/taser.png>](https://www.taser.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/neo4j.png>](https://www.neo4j.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/greenkeeper.png>](https://greenkeeper.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/karma.png>](https://karma-runner.github.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/taser.png>](https://www.taser.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/neo4j.png>](https://www.neo4j.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/rentograph.png>](https://rentograph.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/eaze.png>](https://www.eaze.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/ctrl-alt-deseat.png>](https://www.ctrlaltdeseat.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/clevertech.png>](https://clevertech.biz) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/rentograph.png>](https://rentograph.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/eaze.png>](https://www.eaze.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/ctrl-alt-deseat.png>](https://www.ctrlaltdeseat.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/clevertech.png>](https://clevertech.biz) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/aragon.png>](https://aragon.org) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/flowsent.png>](https://www.flowsent.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/puma-browser.png>](https://www.pumabrowser.com/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/webstorm.png>](https://www.jetbrains.com/webstorm/) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/aragon.png>](https://aragon.org) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/flowsent.png>](https://www.flowsent.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/puma-browser.png>](https://www.pumabrowser.com/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/webstorm.png>](https://www.jetbrains.com/webstorm/) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/fastify.png>](https://www.fastify.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/scuttlebutt.png>](https://www.scuttlebutt.nz) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/solid.png>](https://solid.inrupt.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/grab.png>](https://www.grab.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/fastify.png>](https://www.fastify.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/scuttlebutt.png>](https://www.scuttlebutt.nz) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/solid.png>](https://solid.inrupt.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/grab.png>](https://www.grab.com) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/jublia.png>](https://jublia.com/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/atom.png>](https://atom.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/peek.png>](https://www.peek.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/dotenv.png>](https://www.dotenv.org) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/jublia.png>](https://jublia.com/) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/atom.png>](https://atom.io) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/peek.png>](https://www.peek.com) "
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/dotenv.png>](https://www.dotenv.org) "
+#~ "|\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nodesource.png>](https://nodesource.com) "
+#~ "| Your Logo Here |  |  |\n"
+#~ "|---|---|---|---|\n"
+#~ msgstr ""
+#~ "| [<img width=190 "
+#~ "src=https://cdn.rawgit.com/standard/standard/master/docs/logos/nodesource.png>](https://nodesource.com) "
+#~ "| Your Logo Here |  |  |\n"
+#~ "|---|---|---|---|\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "In addition to companies, many community members use `standard` on packages "
+#~ "that are [too "
+#~ "numerous](https://raw.githubusercontent.com/standard/standard-packages/master/all.json)  "
+#~ "to list here."
+#~ msgstr "企業に加えて、多くのコミュニティメンバーがここに載せるには[多すぎる](https://raw.githubusercontent.com/standard/standard-packages/master/all.json)パッケージで`standard`を使用しています。"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "`standard` is also the top-starred linter in GitHub's [Clean Code "
+#~ "Linter](https://github.com/showcases/clean-code-linters) showcase."
+#~ msgstr ""
+#~ "`standard`は、GitHubの[Clean Code "
+#~ "Linter](https://github.com/showcases/clean-code-linters)において最もスターの多いリンターでもあります。"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"are-there-text-editor-plugins\"></span>\n"
+#~ msgstr "<span id=\"are-there-text-editor-plugins\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[sublime-1]: https://packagecontrol.io/ [sublime-2]: "
+#~ "http://www.sublimelinter.com/en/latest/ [sublime-3]: "
+#~ "https://packagecontrol.io/packages/SublimeLinter-contrib-standard "
+#~ "[sublime-4]: https://packagecontrol.io/packages/StandardFormat"
+#~ msgstr ""
+#~ "[sublime-1]: https://packagecontrol.io/ [sublime-2]: "
+#~ "http://www.sublimelinter.com/en/latest/ [sublime-3]: "
+#~ "https://packagecontrol.io/packages/SublimeLinter-contrib-standard "
+#~ "[sublime-4]: https://packagecontrol.io/packages/StandardFormat"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[atom-1]: https://atom.io/packages/linter-js-standard [atom-2]: "
+#~ "https://atom.io/packages/standard-formatter [atom-3]: "
+#~ "https://atom.io/packages/standardjs-snippets [atom-4]: "
+#~ "https://atom.io/packages/linter-js-standard-engine [atom-5]: "
+#~ "https://github.com/standard/standard-engine"
+#~ msgstr ""
+#~ "[atom-1]: https://atom.io/packages/linter-js-standard [atom-2]: "
+#~ "https://atom.io/packages/standard-formatter [atom-3]: "
+#~ "https://atom.io/packages/standardjs-snippets [atom-4]: "
+#~ "https://atom.io/packages/linter-js-standard-engine [atom-5]: "
+#~ "https://github.com/standard/standard-engine"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[vscode-1]: "
+#~ "https://marketplace.visualstudio.com/items?itemName=standard.vscode-standard "
+#~ "[vscode-2]: "
+#~ "https://marketplace.visualstudio.com/items?itemName=capaj.vscode-standardjs-snippets "
+#~ "[vscode-3]: "
+#~ "https://marketplace.visualstudio.com/items?itemName=TimonVS.ReactSnippetsStandard"
+#~ msgstr ""
+#~ "[vscode-1]: "
+#~ "https://marketplace.visualstudio.com/items?itemName=standard.vscode-standard "
+#~ "[vscode-2]: "
+#~ "https://marketplace.visualstudio.com/items?itemName=capaj.vscode-standardjs-snippets "
+#~ "[vscode-3]: "
+#~ "https://marketplace.visualstudio.com/items?itemName=TimonVS.ReactSnippetsStandard"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "let g:ale_linters = {\n"
+#~ "\\   'javascript': ['standard'],\n"
+#~ "\\}\n"
+#~ "let g:ale_fixers = {'javascript': ['standard']}\n"
+#~ msgstr ""
+#~ "let g:ale_linters = {\n"
+#~ "\\   'javascript': ['standard'],\n"
+#~ "\\}\n"
+#~ "let g:ale_fixers = {'javascript': ['standard']}\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "let g:ale_lint_on_save = 1\n"
+#~ "let g:ale_fix_on_save = 1\n"
+#~ msgstr ""
+#~ "let g:ale_lint_on_save = 1\n"
+#~ "let g:ale_fix_on_save = 1\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[vim-1]: https://github.com/w0rp/ale [vim-2]: "
+#~ "https://github.com/neomake/neomake [vim-3]: "
+#~ "https://github.com/vim-syntastic/syntastic"
+#~ msgstr ""
+#~ "[vim-1]: https://github.com/w0rp/ale [vim-2]: "
+#~ "https://github.com/neomake/neomake [vim-3]: "
+#~ "https://github.com/vim-syntastic/syntastic"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[emacs-1]: http://www.flycheck.org [emacs-2]: "
+#~ "http://www.flycheck.org/en/latest/user/installation.html"
+#~ msgstr ""
+#~ "[emacs-1]: http://www.flycheck.org [emacs-2]: "
+#~ "http://www.flycheck.org/en/latest/user/installation.html"
+
+#, fuzzy, markdown-text
+#~ msgid "[brackets-1]: https://github.com/ishamf/brackets-standard/"
+#~ msgstr "[brackets-1]: https://github.com/ishamf/brackets-standard/"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "WebStorm [recently announced native "
+#~ "support](https://blog.jetbrains.com/webstorm/2017/01/webstorm-2017-1-eap-171-2272/)  "
+#~ "for `standard` directly in the IDE."
+#~ msgstr "WebStormでは、IDEで`standard`が[ネイティブサポートされるようになりました。](https://blog.jetbrains.com/webstorm/2017/01/webstorm-2017-1-eap-171-2272/)"
+
+#, fuzzy, markdown-text
+#~ msgid "[webstorm-1]: docs/webstorm.md"
+#~ msgstr "[webstorm-1]: webstorm.md"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"is-there-a-readme-badge\"></span>\n"
+#~ msgstr "<span id=\"is-there-a-readme-badge\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)"
+#~ msgstr ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)\n"
+#~ msgstr ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)"
+#~ msgstr ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)\n"
+#~ msgstr ""
+#~ "[![JavaScript Style "
+#~ "Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"i-disagree-with-rule-x-can-you-change-it\"></span>\n"
+#~ msgstr "<span id=\"i-disagree-with-rule-x-can-you-change-it\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "There are a couple of similar packages for anyone who does not want to "
+#~ "completely accept `standard`: - "
+#~ "[semistandard](https://github.com/standard/semistandard) - standard, with "
+#~ "semicolons - [standardx](https://github.com/standard/standardx) - standard, "
+#~ "with custom tweaks"
+#~ msgstr ""
+#~ "`standard`を完全には受け入れたくない人のために、似たようなパッケージが2つあります: - "
+#~ "[semistandard](https://github.com/standard/semistandard) - セミコロンありのstandard "
+#~ "- [standardx](https://github.com/standard/standardx) - カスタマイズ可能なstandard"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "If you really want to configure hundreds of ESLint rules individually, you "
+#~ "can always use `eslint` directly with "
+#~ "[eslint-config-standard](https://github.com/standard/eslint-config-standard) "
+#~ "to layer your changes on top.  "
+#~ "[`standard-eject`](https://github.com/josephfrazier/standard-eject) can help "
+#~ "you migrate from `standard` to `eslint` and `eslint-config-standard`."
+#~ msgstr "本当に何百ものESLintのルールを個別に設定したいなら、ルールを上書きするために[eslint-config-standard](https://github.com/standard/eslint-config-standard)で`eslint`を直接使うことができます。[`standard-eject`](https://github.com/josephfrazier/standard-eject)は、`standard`から`eslint`と`eslint-config-standard`への移行を支援します。"
+
+#, fuzzy, markdown-text
+#~ msgid "[bikeshedding]: https://docs.freebsd.org/en/books/faq/#bikeshed-painting"
+#~ msgstr ""
+#~ "[bikeshedding]: "
+#~ "https://www.freebsd.org/doc/en/books/faq/misc.html#bikeshed-painting"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"but-this-isnt-a-real-web-standard\"></span>\n"
+#~ msgstr "<span id=\"but-this-isnt-a-real-web-standard\"></span>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"is-there-an-automatic-formatter\"></span>\n"
+#~ msgstr "<span id=\"is-there-an-automatic-formatter\"></span>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"how-do-i-ignore-files\"></span>\n"
+#~ msgstr "<span id=\"how-do-i-ignore-files\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "\"standard\": {\n"
+#~ "  \"ignore\": [\n"
+#~ "    \"**/out/\",\n"
+#~ "    \"/lib/select2/\",\n"
+#~ "    \"/lib/ckeditor/\",\n"
+#~ "    \"tmp.js\"\n"
+#~ "  ]\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "\"standard\": {\n"
+#~ "  \"ignore\": [\n"
+#~ "    \"**/out/\",\n"
+#~ "    \"/lib/select2/\",\n"
+#~ "    \"/lib/ckeditor/\",\n"
+#~ "    \"tmp.js\"\n"
+#~ "  ]\n"
+#~ "}\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"how-do-i-disable-a-rule\"></span>\n"
+#~ msgstr "<span id=\"how-do-i-disable-a-rule\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "file = 'I know what I am doing' // eslint-disable-line\n"
+#~ msgstr "file = 'I know what I am doing' // eslint-disable-line\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "file = 'I know what I am doing' // eslint-disable-line "
+#~ "no-use-before-define\n"
+#~ msgstr ""
+#~ "file = 'I know what I am doing' // eslint-disable-line "
+#~ "no-use-before-define\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "/* eslint-disable no-use-before-define */\n"
+#~ "console.log('offending code goes here...')\n"
+#~ "console.log('offending code goes here...')\n"
+#~ "console.log('offending code goes here...')\n"
+#~ "/* eslint-enable no-use-before-define */\n"
+#~ msgstr ""
+#~ "/* eslint-disable no-use-before-define */\n"
+#~ "console.log('offending code goes here...')\n"
+#~ "console.log('offending code goes here...')\n"
+#~ "console.log('offending code goes here...')\n"
+#~ "/* eslint-enable no-use-before-define */\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "<span "
+#~ "id=\"i-use-a-library-that-pollutes-the-global-namespace-how-do-i-prevent-variable-is-not-defined-errors\"></span>\n"
+#~ msgstr ""
+#~ "<span "
+#~ "id=\"i-use-a-library-that-pollutes-the-global-namespace-how-do-i-prevent-variable-is-not-defined-errors\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "/* global myVar1, myVar2 */\n"
+#~ msgstr "/* global myVar1, myVar2 */\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard --global myVar1 --global myVar2\n"
+#~ msgstr "$ standard --global myVar1 --global myVar2\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "{\n"
+#~ "  \"standard\": {\n"
+#~ "    \"globals\": [ \"myVar1\", \"myVar2\" ]\n"
+#~ "  }\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "{\n"
+#~ "  \"standard\": {\n"
+#~ "    \"globals\": [ \"myVar1\", \"myVar2\" ]\n"
+#~ "  }\n"
+#~ "}\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"how-do-i-use-experimental-javascript-es-next-features\"></span>\n"
+#~ msgstr "<span id=\"how-do-i-use-experimental-javascript-es-next-features\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "npm install @babel/eslint-parser --save-dev\n"
+#~ msgstr "npm install @babel/eslint-parser --save-dev\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard --parser @babel/eslint-parser\n"
+#~ msgstr "$ standard --parser @babel/eslint-parser\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "{\n"
+#~ "  \"standard\": {\n"
+#~ "    \"parser\": \"@babel/eslint-parser\"\n"
+#~ "  }\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "{\n"
+#~ "  \"standard\": {\n"
+#~ "    \"parser\": \"@babel/eslint-parser\"\n"
+#~ "  }\n"
+#~ "}\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid ""
+#~ "<span "
+#~ "id=\"can-i-use-a-javascript-language-variant-like-flow-or-typescript\"></span>\n"
+#~ msgstr ""
+#~ "<span "
+#~ "id=\"can-i-use-a-javascript-language-variant-like-flow-or-typescript\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "npm install ts-standard --save-dev\n"
+#~ msgstr "npm install ts-standard --save-dev\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ ts-standard\n"
+#~ msgstr "$ ts-standard\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "{\n"
+#~ "  \"ts-standard\": {\n"
+#~ "    \"project\": \"./tsconfig.json\"\n"
+#~ "  }\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "{\n"
+#~ "  \"ts-standard\": {\n"
+#~ "    \"project\": \"./tsconfig.json\"\n"
+#~ "  }\n"
+#~ "}\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "If you really want to configure hundreds of ESLint rules individually, you "
+#~ "can always use eslint directly with "
+#~ "[`eslint-config-standard-with-typescript`](https://github.com/standard/eslint-config-standard-with-typescript)  "
+#~ "to layer your changes on top."
+#~ msgstr ""
+#~ "If you really want to configure hundreds of ESLint rules individually, you "
+#~ "can always use eslint directly with "
+#~ "[`eslint-config-standard-with-typescript`](https://github.com/standard/eslint-config-standard-with-typescript)  "
+#~ "to layer your changes on top."
+
+#, fuzzy, no-wrap
+#~ msgid "npm install @babel/eslint-parser eslint-plugin-flowtype --save-dev\n"
+#~ msgstr "npm install @babel/eslint-parser eslint-plugin-flowtype --save-dev\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard --parser @babel/eslint-parser --plugin flowtype\n"
+#~ msgstr "$ standard --parser @babel/eslint-parser --plugin flowtype\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "{\n"
+#~ "  \"standard\": {\n"
+#~ "    \"parser\": \"@babel/eslint-parser\",\n"
+#~ "    \"plugins\": [ \"flowtype\" ]\n"
+#~ "  }\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "{\n"
+#~ "  \"standard\": {\n"
+#~ "    \"parser\": \"@babel/eslint-parser\",\n"
+#~ "    \"plugins\": [ \"flowtype\" ]\n"
+#~ "  }\n"
+#~ "}\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"what-about-mocha-jest-jasmine-qunit-etc\"></span>\n"
+#~ msgstr "<span id=\"what-about-mocha-jest-jasmine-qunit-etc\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "/* eslint-env mocha */\n"
+#~ msgstr "/* eslint-env mocha */\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard --env mocha\n"
+#~ msgstr "$ standard --env mocha\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "Where `mocha` can be one of `jest`, `jasmine`, `qunit`, `phantomjs`, and so "
+#~ "on. To see a full list, check ESLint's [specifying "
+#~ "environments](https://eslint.org/docs/latest/use/configure/language-options#specifying-environments)  "
+#~ "documentation. For a list of what globals are available for these "
+#~ "environments, check the "
+#~ "[globals](https://github.com/sindresorhus/globals/blob/master/globals.json) "
+#~ "npm module."
+#~ msgstr ""
+#~ "`mocha`は`jest`、`jasmine`、`qunit`、`phantomjs`などのいずれかになります。完全なリストを見るには、ESLintの[specifying "
+#~ "environments](http://eslint.org/docs/user-guide/configuring.html#specifying-environments)を参照してください。これらの環境で使用可能なグローバルオブジェクトのリストについては、[globals](https://github.com/sindresorhus/globals/blob/master/globals.json)のnpm "
+#~ "moduleを参照してください。"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"what-about-web-workers-and-service-workers\"></span>\n"
+#~ msgstr "<span id=\"what-about-web-workers-and-service-workers\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid "/* eslint-env worker */\n"
+#~ msgstr "/* eslint-env worker */\n"
+
+#, fuzzy, no-wrap
+#~ msgid "/* eslint-env serviceworker */\n"
+#~ msgstr "/* eslint-env serviceworker */\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"what-is-the-difference-between-warnings-and-errors\"></span>\n"
+#~ msgstr "<span id=\"what-is-the-difference-between-warnings-and-errors\"></span>\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"can-i-check-code-inside-of-markdown-or-html-files\"></span>\n"
+#~ msgstr "<span id=\"can-i-check-code-inside-of-markdown-or-html-files\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "To check code inside Markdown files, use "
+#~ "[`standard-markdown`](https://www.npmjs.com/package/standard-markdown)."
+#~ msgstr "Markdownファイル内のコードをチェックするには、[`standard-markdown`](https://www.npmjs.com/package/standard-markdown)を使用してください。"
+
+#, fuzzy, no-wrap
+#~ msgid "$ npm install eslint-plugin-markdown\n"
+#~ msgstr "$ npm install eslint-plugin-markdown\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard --plugin markdown '**/*.md'\n"
+#~ msgstr "$ standard --plugin markdown '**/*.md'\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ npm install eslint-plugin-html\n"
+#~ msgstr "$ npm install eslint-plugin-html\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard --plugin html '**/*.html'\n"
+#~ msgstr "$ standard --plugin html '**/*.html'\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"is-there-a-git-pre-commit-hook\"></span>\n"
+#~ msgstr "<span id=\"is-there-a-git-pre-commit-hook\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "#!/bin/bash\n"
+#~ "\n"
+#~ "# Ensure all JavaScript files staged for commit pass standard code style\n"
+#~ "function xargs-r() {\n"
+#~ "  # Portable version of \"xargs -r\". The -r flag is a GNU extension that\n"
+#~ "  # prevents xargs from running if there are no input files.\n"
+#~ "  if IFS= read -r -d $'\\n' path; then\n"
+#~ "    echo \"$path\" | cat - | xargs \"$@\"\n"
+#~ "  fi\n"
+#~ "}\n"
+#~ "git diff --name-only --cached --relative | grep '\\.jsx\\?$' | sed "
+#~ "'s/[^[:alnum:]]/\\\\&/g' | xargs-r -E '' -t standard\n"
+#~ "if [[ $? -ne 0 ]]; then\n"
+#~ "  echo 'JavaScript Standard Style errors were detected. Aborting commit.'\n"
+#~ "  exit 1\n"
+#~ "fi\n"
+#~ msgstr ""
+#~ "#!/bin/bash\n"
+#~ "\n"
+#~ "# Ensure all JavaScript files staged for commit pass standard code style\n"
+#~ "function xargs-r() {\n"
+#~ "  # Portable version of \"xargs -r\". The -r flag is a GNU extension that\n"
+#~ "  # prevents xargs from running if there are no input files.\n"
+#~ "  if IFS= read -r -d $'\\n' path; then\n"
+#~ "    echo \"$path\" | cat - | xargs \"$@\"\n"
+#~ "  fi\n"
+#~ "}\n"
+#~ "git diff --name-only --cached --relative | grep '\\.jsx\\?$' | sed "
+#~ "'s/[^[:alnum:]]/\\\\&/g' | xargs-r -E '' -t standard\n"
+#~ "if [[ $? -ne 0 ]]; then\n"
+#~ "  echo 'JavaScript Standard Style errors were detected. Aborting commit.'\n"
+#~ "  exit 1\n"
+#~ "fi\n"
+
+#, fuzzy, markdown-text
+#~ msgid "repo: https://github.com/standard/standard rev: master hooks:"
+#~ msgstr "repo: https://github.com/standard/standard rev: master hooks:"
+
+#, fuzzy, markdown-text
+#~ msgid "id: standard"
+#~ msgstr "id: standard"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "Alternatively, for more advanced styling configurations, use `standard` "
+#~ "within the [eslint hook](https://github.com/pre-commit/mirrors-eslint):"
+#~ msgstr ""
+#~ "あるいは、より高度なスタイル設定のために[eslint "
+#~ "hook](https://github.com/pre-commit/mirrors-eslint)の中で`standard`を使用します。："
+
+#, fuzzy, markdown-text
+#~ msgid "repo: https://github.com/pre-commit/mirrors-eslint rev: master hooks:"
+#~ msgstr "repo: https://github.com/pre-commit/mirrors-eslint rev: master hooks:"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "id: eslint files: \\.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx types: [file] "
+#~ "additional_dependencies:"
+#~ msgstr ""
+#~ "id: eslint files: \\.[jt]sx?$ # *.js, *.jsx, *.ts and *.tsx types: [file] "
+#~ "additional_dependencies:"
+
+#, fuzzy, markdown-text
+#~ msgid "eslint@latest"
+#~ msgstr "eslint@latest"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "          - eslint-config-standard@latest\n"
+#~ "          # and whatever other plugins...\n"
+#~ msgstr ""
+#~ "          - eslint-config-standard@latest\n"
+#~ "          # and whatever other plugins...\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"how-do-i-make-the-output-all-colorful-and-pretty\"></span>\n"
+#~ msgstr "<span id=\"how-do-i-make-the-output-all-colorful-and-pretty\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "The built-in output is simple and straightforward, but if you like shiny "
+#~ "things, install [snazzy](https://www.npmjs.com/package/snazzy):"
+#~ msgstr "ビルトインの出力はシンプルで簡単ですが、きらきらしたものが好きなら[snazzy](https://www.npmjs.com/package/snazzy)をインストールしてください。"
+
+#, fuzzy, no-wrap
+#~ msgid "$ npm install snazzy\n"
+#~ msgstr "$ npm install snazzy\n"
+
+#, fuzzy, no-wrap
+#~ msgid "$ standard | snazzy\n"
+#~ msgstr "$ standard | snazzy\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "There's also [standard-tap](https://www.npmjs.com/package/standard-tap), "
+#~ "[standard-json](https://www.npmjs.com/package/standard-json), "
+#~ "[standard-reporter](https://www.npmjs.com/package/standard-reporter), and "
+#~ "[standard-summary](https://www.npmjs.com/package/standard-summary)."
+#~ msgstr "[standard-tap](https://www.npmjs.com/package/standard-tap)、[standard-json](https://www.npmjs.com/package/standard-json)、[standard-reporter](https://www.npmjs.com/package/standard-reporter)、[standard-summary](https://www.npmjs.com/package/standard-summary)もあります。"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"is-there-a-nodejs-api\"></span>\n"
+#~ msgstr "<span id=\"is-there-a-nodejs-api\"></span>\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "{\n"
+#~ "  // unique to lintText\n"
+#~ "  filename: '',         // path of file containing the text being linted\n"
+#~ "\n"
+#~ "  // common to lintText and lintFiles\n"
+#~ "  cwd: '',              // current working directory (default: "
+#~ "process.cwd())\n"
+#~ "  fix: false,           // automatically fix problems\n"
+#~ "  extensions: [],       // file extensions to lint (has sane defaults)\n"
+#~ "  globals: [],          // custom global variables to declare\n"
+#~ "  plugins: [],          // custom eslint plugins\n"
+#~ "  envs: [],             // custom eslint environment\n"
+#~ "  parser: '',           // custom js parser (e.g. babel-eslint)\n"
+#~ "  usePackageJson: true, // use options from nearest package.json?\n"
+#~ "  useGitIgnore: true    // use file ignore patterns from .gitignore?\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "{\n"
+#~ "  // unique to lintText\n"
+#~ "  filename: '',         // path of file containing the text being linted\n"
+#~ "\n"
+#~ "  // common to lintText and lintFiles\n"
+#~ "  cwd: '',              // current working directory (default: "
+#~ "process.cwd())\n"
+#~ "  fix: false,           // automatically fix problems\n"
+#~ "  extensions: [],       // file extensions to lint (has sane defaults)\n"
+#~ "  globals: [],          // custom global variables to declare\n"
+#~ "  plugins: [],          // custom eslint plugins\n"
+#~ "  envs: [],             // custom eslint environment\n"
+#~ "  parser: '',           // custom js parser (e.g. babel-eslint)\n"
+#~ "  usePackageJson: true, // use options from nearest package.json?\n"
+#~ "  useGitIgnore: true    // use file ignore patterns from .gitignore?\n"
+#~ "}\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "const results = {\n"
+#~ "  results: [\n"
+#~ "    {\n"
+#~ "      filePath: '',\n"
+#~ "      messages: [\n"
+#~ "        { ruleId: '', message: '', line: 0, column: 0 }\n"
+#~ "      ],\n"
+#~ "      errorCount: 0,\n"
+#~ "      warningCount: 0,\n"
+#~ "      output: '' // fixed source code (only present with {fix: true} "
+#~ "option)\n"
+#~ "    }\n"
+#~ "  ],\n"
+#~ "  errorCount: 0,\n"
+#~ "  warningCount: 0\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "const results = {\n"
+#~ "  results: [\n"
+#~ "    {\n"
+#~ "      filePath: '',\n"
+#~ "      messages: [\n"
+#~ "        { ruleId: '', message: '', line: 0, column: 0 }\n"
+#~ "      ],\n"
+#~ "      errorCount: 0,\n"
+#~ "      warningCount: 0,\n"
+#~ "      output: '' // fixed source code (only present with {fix: true} "
+#~ "option)\n"
+#~ "    }\n"
+#~ "  ],\n"
+#~ "  errorCount: 0,\n"
+#~ "  warningCount: 0\n"
+#~ "}\n"
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "{\n"
+#~ "  // unique to lintFiles\n"
+#~ "  ignore: [],           // file globs to ignore (has sane defaults)\n"
+#~ "\n"
+#~ "  // common to lintText and lintFiles\n"
+#~ "  cwd: '',              // current working directory (default: "
+#~ "process.cwd())\n"
+#~ "  fix: false,           // automatically fix problems\n"
+#~ "  extensions: [],       // file extensions to lint (has sane defaults)\n"
+#~ "  globals: [],          // custom global variables to declare\n"
+#~ "  plugins: [],          // custom eslint plugins\n"
+#~ "  envs: [],             // custom eslint environment\n"
+#~ "  parser: '',           // custom js parser (e.g. babel-eslint)\n"
+#~ "  usePackageJson: true, // use options from nearest package.json?\n"
+#~ "  useGitIgnore: true    // use file ignore patterns from .gitignore?\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "{\n"
+#~ "  // unique to lintFiles\n"
+#~ "  ignore: [],           // file globs to ignore (has sane defaults)\n"
+#~ "\n"
+#~ "  // common to lintText and lintFiles\n"
+#~ "  cwd: '',              // current working directory (default: "
+#~ "process.cwd())\n"
+#~ "  fix: false,           // automatically fix problems\n"
+#~ "  extensions: [],       // file extensions to lint (has sane defaults)\n"
+#~ "  globals: [],          // custom global variables to declare\n"
+#~ "  plugins: [],          // custom eslint plugins\n"
+#~ "  envs: [],             // custom eslint environment\n"
+#~ "  parser: '',           // custom js parser (e.g. babel-eslint)\n"
+#~ "  usePackageJson: true, // use options from nearest package.json?\n"
+#~ "  useGitIgnore: true    // use file ignore patterns from .gitignore?\n"
+#~ "}\n"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"how-do-i-contribute-to-standardjs\"></span>\n"
+#~ msgstr "<span id=\"how-do-i-contribute-to-standardjs\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "Contributions are welcome! Check out the "
+#~ "[issues](https://github.com/standard/standard/issues) or the "
+#~ "[PRs](https://github.com/standard/standard/pulls), and make your own if you "
+#~ "want something that you don't see there."
+#~ msgstr ""
+#~ "コントリビューションは歓迎されます！[Issues](https://github.com/standard/standard/issues)や[Pull "
+#~ "Requests](https://github.com/standard/standard/pulls)をチェックし、望みのものがなければ作成してください。"
+
+#, fuzzy, markdown-text
+#~ msgid "**[standard](https://github.com/standard/standard)** - this repo"
+#~ msgstr "**[standard](https://github.com/standard/standard)** - このリポジトリ"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[standard-engine](https://github.com/standard/standard-engine)** - cli "
+#~ "engine for arbitrary eslint rules"
+#~ msgstr ""
+#~ "**[standard-engine](https://github.com/standard/standard-engine)** - "
+#~ "任意のESLintルールのCLIエンジン"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[eslint-config-standard](https://github.com/standard/eslint-config-standard)** "
+#~ "- eslint rules for standard"
+#~ msgstr ""
+#~ "**[eslint-config-standard](https://github.com/standard/eslint-config-standard)** "
+#~ "- standardのESLintルール"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[eslint-config-standard-jsx](https://github.com/standard/eslint-config-standard-jsx)** "
+#~ "- eslint rules for standard (JSX)"
+#~ msgstr ""
+#~ "**[eslint-config-standard-jsx](https://github.com/standard/eslint-config-standard-jsx)** "
+#~ "- standardのESLintルール（JSX）"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[eslint](https://github.com/eslint/eslint)** - the linter that powers "
+#~ "standard"
+#~ msgstr "**[eslint](https://github.com/eslint/eslint)** - standardを動作させるリンター"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[snazzy](https://github.com/standard/snazzy)** - pretty terminal output "
+#~ "for standard"
+#~ msgstr "**[snazzy](https://github.com/standard/snazzy)** - standardのきれいなターミナル出力"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[standard-www](https://github.com/standard/standard-www)** - code for "
+#~ "https://standardjs.com"
+#~ msgstr ""
+#~ "**[standard-www](https://github.com/standard/standard-www)** - "
+#~ "https://standardjs.com のコード"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[semistandard](https://github.com/standard/semistandard)** - standard, "
+#~ "with semicolons (if you must)"
+#~ msgstr ""
+#~ "**[semistandard](https://github.com/standard/semistandard)** - "
+#~ "セミコロンありのstandard（必要ならば）"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "**[standardx](https://github.com/standard/standardx)** - standard, with "
+#~ "custom tweaks"
+#~ msgstr "**[standardx](https://github.com/standard/standardx)** - カスタマイズ可能なstandard"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "There are also many **[editor plugins](#are-there-text-editor-plugins)**, a "
+#~ "list of **[npm packages that use "
+#~ "`standard`](https://github.com/standard/standard-packages)**, and an awesome "
+#~ "list of **[packages in the `standard` "
+#~ "ecosystem](https://github.com/standard/awesome-standard)**."
+#~ msgstr ""
+#~ "多くの **[エディタープラグイン](#are-there-text-editor-plugins)** 、 "
+#~ "**[`standard`を使用しているnpmパッケージ](https://github.com/standard/standard-packages)** "
+#~ "のリスト、 "
+#~ "**[`standard`のエコシステムのパッケージ](https://github.com/standard/awesome-standard)** "
+#~ "の素晴らしいリストもあります。"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"security-policies-and-procedures\"></span>\n"
+#~ msgstr "<span id=\"security-policies-and-procedures\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid ""
+#~ "The `standard` team and community take all security bugs in `standard` "
+#~ "seriously. Please see our [security policies and "
+#~ "procedures](https://github.com/standard/.github/blob/master/SECURITY.md) "
+#~ "document to learn how to report issues."
+#~ msgstr ""
+#~ "`standard`チームとコミュニティは、`standard`におけるすべてのバグを真摯に受け止めています。問題を報告する方法については、[security "
+#~ "policies and "
+#~ "procedures](https://github.com/standard/.github/blob/master/SECURITY.md)を参照してください。"
+
+#, fuzzy, markdown-text, no-wrap
+#~ msgid "<span id=\"license\"></span>\n"
+#~ msgstr "<span id=\"license\"></span>\n"
+
+#, fuzzy, markdown-text
+#~ msgid "[MIT](LICENSE). Copyright (c) [Feross Aboukhadijeh](https://feross.org)."
+#~ msgstr "[MIT](LICENSE). Copyright (c) [Feross Aboukhadijeh](https://feross.org)."

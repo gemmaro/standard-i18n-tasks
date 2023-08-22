@@ -1,0 +1,3 @@
+[submodule "standard"]
+	path = standard
+	url = git@github.com:standard/standard.git

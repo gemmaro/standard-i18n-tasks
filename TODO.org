@@ -1,0 +1,2 @@
+GitHub - standard - standard - Introduce translation management service for documents #1613
+https://github.com/standard/standard/issues/1613

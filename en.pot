@@ -1,0 +1,1192 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-21 15:45+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.10.0\n"
+
+#: standard/docs/README-en.md%2Bheading
+msgid "JavaScript style guide, linter, and formatter"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgctxt "standard/docs/README-en.md+p"
+msgid "This module saves you (and others!) time in three ways:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid ""
+"**No configuration.** The easiest way to enforce code quality in your "
+"project. No decisions to make. No `.eslintrc` files to manage. It just works."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgctxt "standard/docs/README-en.md+list-item.p"
+msgid ""
+"**Automatically format code.** Just run `standard --fix` and say goodbye to "
+"messy or inconsistent code."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgctxt "standard/docs/README-en.md+list-item.p"
+msgid ""
+"**Catch style issues & programmer errors early.** Save precious code review "
+"time by eliminating back-and-forth between reviewer & contributor."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Give it a try by running `npx standard --fix` right now!"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Table of Contents"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "Quick start"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Install]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Usage]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[What you might do if you're clever]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "FAQ"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Why should I use JavaScript Standard Style?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Who uses JavaScript Standard Style?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Are there text editor plugins?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Is there a readme badge?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[I disagree with rule X, can you change it?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[But this isn't a real web standard!]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Is there an automatic formatter?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[How do I ignore files?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[How do I disable a rule?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid ""
+"[I use a library that pollutes the global namespace. How do I prevent "
+"\"variable is not defined\" errors?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[How do I use experimental JavaScript (ES Next) features?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Can I use a JavaScript language variant, like Flow or TypeScript?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[What about Mocha, Jest, Jasmine, QUnit, etc?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[What about Web Workers and Service Workers?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[What is the difference between warnings and errors?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Can I check code inside of Markdown or HTML files?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Is there a Git `pre-commit` hook?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[How do I make the output all colorful and pretty?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[Is there a Node.js API?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "[How do I contribute to StandardJS?]{1}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Install"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The easiest way to use JavaScript Standard Style is to install it globally "
+"as a Node command line program. Run the following command in Terminal:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Or, you can install `standard` locally, for use in a single project:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"*Note: To run the preceding commands, [Node.js]{1} and [npm]{2} must be "
+"installed.*"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Usage"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"After you've installed `standard`, you should be able to use the `standard` "
+"program. The simplest use case would be checking the style of all JavaScript "
+"files in the current working directory:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "If you've installed `standard` locally, run with `npx` instead:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"You can optionally pass in a directory (or directories) using the glob "
+"pattern. Be sure to quote paths containing glob patterns so that they are "
+"expanded by `standard` instead of your shell:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"**Note:** by default `standard` will look for all files matching the "
+"patterns: `**/*.js`, `**/*.jsx`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "What you might do if you're clever"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "Add it to `package.json`"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "Style is checked automatically when you run `npm test`"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "Never give style feedback on a pull request again!"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Why should I use JavaScript Standard Style?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The beauty of JavaScript Standard Style is that it's simple. No one wants to "
+"maintain multiple hundred-line style configuration files for every module/"
+"project they work on. Enough of this madness!"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid ""
+"**No configuration.** The easiest way to enforce consistent style in your "
+"project. Just drop it in."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Adopting `standard` style means ranking the importance of code clarity and "
+"community conventions higher than personal style. This might not make sense "
+"for 100% of projects and development cultures, however open source can be a "
+"hostile place for newbies. Setting up clear, automated contributor "
+"expectations makes a project healthier."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"For more info, see the conference talk [\"Write Perfect Code with Standard "
+"and ESLint\"]{1}. In this talk, you'll learn about linting, when to use "
+"`standard` versus `eslint`, and how `prettier` compares to `standard`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Who uses JavaScript Standard Style?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Btable-cell
+msgctxt "standard/docs/README-en.md+table-cell"
+msgid "[{1}]{2}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Btable-cell
+msgid "Your Logo Here"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"In addition to companies, many community members use `standard` on packages "
+"that are [too numerous]{1} to list here."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"`standard` is also the top-starred linter in GitHub's [Clean Code Linter]{1} "
+"showcase."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Are there text editor plugins?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"First, install `standard`. Then, install the appropriate plugin for your "
+"editor:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Sublime Text"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Using **[Package Control]{1}**, install **[SublimeLinter]{2}** and "
+"**[SublimeLinter-contrib-standard]{3}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "sublime-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "For automatic formatting on save, install **[StandardFormat]{1}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "sublime-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Atom"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Install **[linter-js-standard]{1}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-5"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Alternatively, you can install **[linter-js-standard-engine]{1}**. Instead "
+"of bundling a version of `standard` it will automatically use the version "
+"installed in your current project. It will also work out of the box with "
+"other linters based on **[standard-engine]{2}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "atom-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"For automatic formatting, install **[standard-formatter]{1}**. For snippets, "
+"install **[standardjs-snippets]{2}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-4"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "atom-5"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Visual Studio Code"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vscode-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Install **[vscode-standard]{1}**. (Includes support for automatic "
+"formatting.)"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vscode-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vscode-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"For JS snippets, install: **[vscode-standardjs-snippets]{1}**. For React "
+"snippets, install **[vscode-react-standard]{2}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vscode-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vscode-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vscode-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Vim"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vim-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Install **[ale]{1}**. And add these lines to your `.vimrc` file."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"This sets standard as your only linter and fixer for javascript files and so "
+"prevents conflicts with eslint. For linting and automatic fixing on save, "
+"add these lines to `.vimrc`:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vim-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "vim-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Alternative plugins to consider include [neomake]{1} and [syntastic]{2}, "
+"both of which have built-in support for `standard` (though configuration may "
+"be necessary)."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vim-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vim-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "vim-3"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Emacs"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "emacs-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "emacs-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Install **[Flycheck]{1}** and check out the **[manual]{2}** to learn how to "
+"enable it in your projects."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "emacs-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "emacs-2"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Brackets"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "brackets-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Search the extension registry for **[\"Standard Code Style\"]{1}** and click "
+"\"Install\"."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "brackets-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "WebStorm (PhpStorm, IntelliJ, RubyMine, JetBrains, etc.)"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"WebStorm [recently announced native support]{1} for `standard` directly in "
+"the IDE."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "webstorm-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"If you still prefer to configure `standard` manually, [follow this guide]{1}"
+". This applies to all JetBrains products, including PhpStorm, IntelliJ, "
+"RubyMine, etc."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "webstorm-1"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Is there a readme badge?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Yes! If you use `standard` in your project, you can include one of these "
+"badges in your readme to let people know that your code is using the "
+"standard style."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgctxt "standard/docs/README-en.md+p"
+msgid "[![JavaScript Style Guide]{1}]{2}"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "I disagree with rule X, can you change it?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp.link-label
+msgctxt "standard/docs/README-en.md+p.link-label"
+msgid "bikeshedding"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"No. The whole point of `standard` is to save you time by avoiding "
+"[bikeshedding]{1} about code style. There are lots of debates online about "
+"tabs vs. spaces, etc. that will never be resolved. These debates just "
+"distract from getting stuff done. At the end of the day you have to 'just "
+"pick something', and that's the whole philosophy of `standard` -- its a "
+"bunch of sensible 'just pick something' opinions. Hopefully, users see the "
+"value in that over defending their own opinions."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"There are a couple of similar packages for anyone who does not want to "
+"completely accept `standard`:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "[semistandard]{1} - standard, with semicolons"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "[standardx]{1} - standard, with custom tweaks"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"If you really want to configure hundreds of ESLint rules individually, you "
+"can always use `eslint` directly with [eslint-config-standard]{1} to layer "
+"your changes on top. [`standard-eject`]{2} can help you migrate from "
+"`standard` to `eslint` and `eslint-config-standard`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Pro tip: Just use `standard` and move on. There are actual real problems "
+"that you could spend your time solving! :P"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blinkref.link-label
+msgctxt "standard/docs/README-en.md+linkref.link-label"
+msgid "bikeshedding"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "But this isn't a real web standard!"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Of course it's not! The style laid out here is not affiliated with any "
+"official web standards groups, which is why this repo is called `standard/"
+"standard` and not `ECMA/standard`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The word \"standard\" has more meanings than just \"web standard\" :-) For "
+"example:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "This module helps hold our code to a high *standard of quality*."
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid ""
+"This module ensures that new contributors follow some basic *style "
+"standards*."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Is there an automatic formatter?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Yes! You can use `standard --fix` to fix most issues automatically."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"`standard --fix` is built into `standard` for maximum convenience. Most "
+"problems are fixable, but some errors (like forgetting to handle errors) "
+"must be fixed manually."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"To save you time, `standard` outputs the message \"`Run standard --fix to "
+"automatically fix some problems`\" when it detects problems that can be "
+"fixed automatically."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "How do I ignore files?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Certain paths (`node_modules/`, `coverage/`, `vendor/`, `*.min.js`, and "
+"files/folders that begin with `.` like `.git/`) are automatically ignored."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Paths in a project's root `.gitignore` file are also automatically ignored."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Sometimes you need to ignore additional folders or specific minified files. "
+"To do that, add a `standard.ignore` property to `package.json`:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "How do I disable a rule?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"In rare cases, you'll need to break a rule and hide the error generated by "
+"`standard`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"JavaScript Standard Style uses [ESLint]{1} under-the-hood and you can hide "
+"errors as you normally would if you used ESLint directly."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Disable **all rules** on a specific line:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Or, disable **only** the `\"no-use-before-define\"` rule:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Or, disable the `\"no-use-before-define\"` rule for **multiple lines**:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid ""
+"I use a library that pollutes the global namespace. How do I prevent "
+"\"variable is not defined\" errors?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Some packages (e.g. `mocha`) put their functions (e.g. `describe`, `it`) on "
+"the global object (poor form!). Since these functions are not defined or "
+"`require`'d anywhere in your code, `standard` will warn that you're using a "
+"variable that is not defined (usually, this rule is really useful for "
+"catching typos!). But we want to disable it for these global variables."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"To let `standard` (as well as humans reading your code) know that certain "
+"variables are global in your code, add this to the top of your file:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"If you have hundreds of files, it may be desirable to avoid adding comments "
+"to every file. In this case, run:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgctxt "standard/docs/README-en.md+p"
+msgid "Or, add this to `package.json`:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "*Note: `global` and `globals` are equivalent.*"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "How do I use experimental JavaScript (ES Next) features?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"`standard` supports the latest ECMAScript features, ES8 (ES2017), including "
+"language feature proposals that are in \"Stage 4\" of the proposal process."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"To support experimental language features, `standard` supports specifying a "
+"custom JavaScript parser. Before using a custom parser, consider whether the "
+"added complexity is worth it."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "To use a custom parser, first install it from npm:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgctxt "standard/docs/README-en.md+p"
+msgid "Then run:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Can I use a JavaScript language variant, like Flow or TypeScript?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"`standard` supports the latest ECMAScript features. However, Flow and "
+"TypeScript add new syntax to the language, so they are not supported out-of-"
+"the-box."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"For TypeScript, an official variant `ts-standard` is supported and "
+"maintained that provides a very similar experience to `standard`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"For other JavaScript language variants, `standard` supports specifying a "
+"custom JavaScript parser as well as an ESLint plugin to handle the changed "
+"syntax. Before using a JavaScript language variant, consider whether the "
+"added complexity is worth it."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "TypeScript"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"[`ts-standard`]{1} is the officially supported variant for TypeScript. `ts-"
+"standard` supports all the same rules and options as `standard` and includes "
+"additional TypeScript specific rules. `ts-standard` will even lint regular "
+"`javascript` files by setting the configuration in `tsconfig.json`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Then run (where `tsconfig.json` is located in the working directory):"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"*Note: To include additional files in linting such as test files, create a "
+"`tsconfig.eslint.json` file to use instead.*"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"If you really want to configure hundreds of ESLint rules individually, you "
+"can always use eslint directly with [`eslint-config-standard-with-"
+"typescript`]{1} to layer your changes on top."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Flow"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"To use Flow, you need to run `standard` with `@babel/eslint-parser` as the "
+"parser and `eslint-plugin-flowtype` as a plugin."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "*Note: `plugin` and `plugins` are equivalent.*"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "What about Mocha, Jest, Jasmine, QUnit, etc?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "To support mocha in test files, add this to the top of the test files:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Or, run:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Where `mocha` can be one of `jest`, `jasmine`, `qunit`, `phantomjs`, and so "
+"on. To see a full list, check ESLint's [specifying environments]{1} "
+"documentation. For a list of what globals are available for these "
+"environments, check the [globals]{2} npm module."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "*Note: `env` and `envs` are equivalent.*"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "What about Web Workers and Service Workers?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Add this to the top of web worker files:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"This lets `standard` (as well as humans reading the code) know that `self` "
+"is a global in web worker code."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "For Service workers, add this instead:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "What is the difference between warnings and errors?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"`standard` treats all rule violations as errors, which means that `standard` "
+"will exit with a non-zero (error) exit code."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"However, we may occasionally release a new major version of `standard` which "
+"changes a rule that affects the majority of `standard` users (for example, "
+"transitioning from `var` to `let`/`const`). We do this only when we think "
+"the advantage is worth the cost and only when the rule is [auto-fixable]{1}."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"In these situations, we have a \"transition period\" where the rule change "
+"is only a \"warning\". Warnings don't cause `standard` to return a non-zero "
+"(error) exit code. However, a warning message will still print to the "
+"console. During the transition period, `using standard --fix` will update "
+"your code so that it's ready for the next major version."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The slow and careful approach is what we strive for with `standard`. We're "
+"generally extremely conservative in enforcing the usage of new language "
+"features. We want using `standard` to be light and fun and so we're careful "
+"about making changes that may get in your way. As always, you can [disable a "
+"rule]{1} at any time, if necessary."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Can I check code inside of Markdown or HTML files?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "To check code inside Markdown files, use [`standard-markdown`]{1}."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Alternatively, there are ESLint plugins that can check code inside Markdown, "
+"HTML, and many other types of language files:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "To check code inside Markdown files, use an ESLint plugin:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Then, to check JS that appears inside code blocks, run:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "To check code inside HTML files, use an ESLint plugin:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Then, to check JS that appears inside `<script>` tags, run:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Is there a Git `pre-commit` hook?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Yes! Hooks are great for ensuring that unstyled code never even makes it "
+"into your repo. Never give style feedback on a pull request again!"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "You even have a choice..."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Install your own hook"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Use a `pre-commit` hook"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The [pre-commit]{1} library allows hooks to be declared within a `.pre-"
+"commit-config.yaml` configuration file in the repo, and therefore more "
+"easily maintained across a team."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Users of pre-commit can simply add `standard` to their `.pre-commit-config."
+"yaml` file, which will automatically fix `.js`, `.jsx`, `.mjs` and `.cjs` "
+"files:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Alternatively, for more advanced styling configurations, use `standard` "
+"within the [eslint hook]{1}:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "How do I make the output all colorful and pretty?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The built-in output is simple and straightforward, but if you like shiny "
+"things, install [snazzy]{1}:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "And run:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"There's also [standard-tap]{1}, [standard-json]{2}, [standard-reporter]{3}, "
+"and [standard-summary]{4}."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Is there a Node.js API?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Yes!"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "`async standard.lintText(text, [opts])`"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Lint the provided source `text`. An `opts` object may be provided:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"All options are optional, though some ESLint plugins require the `filename` "
+"option."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgctxt "standard/docs/README-en.md+p"
+msgid ""
+"Additional options may be loaded from a `package.json` if it's found for the "
+"current working directory. See below for further details."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Returns a `Promise` resolving to the `results` or rejected with an `Error`."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "The `results` object will contain the following properties:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "`async standard.lintFiles(files, [opts])`"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Lint the provided `files` globs. An `opts` object may be provided:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Both `ignore` and `files` patterns are resolved relative to the current "
+"working directory."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Returns a `Promise` resolving to the `results` or rejected with an `Error` ("
+"same as above)."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "How do I contribute to StandardJS?"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Contributions are welcome! Check out the [issues]{1} or the [PRs]{2}, and "
+"make your own if you want something that you don't see there."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"Want to chat? Join contributors on IRC in the `#standard` channel on "
+"freenode."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "Here are some important packages in the `standard` ecosystem:"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[standard]{1}** - this repo"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[standard-engine]{1}** - cli engine for arbitrary eslint rules"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[eslint-config-standard]{1}** - eslint rules for standard"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[eslint-config-standard-jsx]{1}** - eslint rules for standard (JSX)"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.list-item.p
+msgid "**[eslint]{1}** - the linter that powers standard"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[snazzy]{1}** - pretty terminal output for standard"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[standard-www]{1}** - code for https://standardjs.com"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[semistandard]{1}** - standard, with semicolons (if you must)"
+msgstr ""
+
+#: standard/docs/README-en.md%2Blist-item.p
+msgid "**[standardx]{1}** - standard, with custom tweaks"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"There are also many **[editor plugins]{1}**, a list of **[npm packages that "
+"use `standard`]{2}**, and an awesome list of **[packages in the `standard` "
+"ecosystem]{3}**."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "Security Policies and Procedures"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid ""
+"The `standard` team and community take all security bugs in `standard` "
+"seriously. Please see our [security policies and procedures]{1} document to "
+"learn how to report issues."
+msgstr ""
+
+#: standard/docs/README-en.md%2Bheading
+msgid "License"
+msgstr ""
+
+#: standard/docs/README-en.md%2Bp
+msgid "[MIT]{1}. Copyright (c) [Feross Aboukhadijeh]{2}."
+msgstr ""
